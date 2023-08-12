@@ -1,0 +1,3 @@
+#!/bin/bash
+# builds static site using ssg
+./ssg src . test https://www
