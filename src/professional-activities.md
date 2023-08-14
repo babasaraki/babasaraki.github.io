@@ -2,27 +2,27 @@
 
 ### Open Science Community Nigeria : FCT, Abuja, NG
 - Founder & Community Lead Service
-- 2022-04-04 to present
+- 2022 to present
 
 ### American Society of Human Genetics: Bethesda, Maryland, US
 - Early Career Professional (Membership)
-- 2020-06-18 to present
+- 2020 to present
 
 ### AfricArXiv: Nairobi, Nairobi, KE
 - Submission Moderator (Moderation)
-- 2019-07-11 to present
+- 2019 to present
 
 ### Nigerian Society of Human Genetics (NSHG): FCT, Abuja, NG
 - Associate Member (Membership)
-- 2019-05-05 to present
+- 2019 to present
 
 ### Nigerian Bioinformatics and Genomics Networks : FCT, Abuja, NG
 - Lifetime Membership (Cancer Genomics)
-- 2019-02-04 to present
+- 2019 to present
 
 ### BioSeq: FCT, Abuja, NG
 - Founder and CEO
-- 2013-02-03 to present
+- 2013 to present
 
 ### Bioconductor: NYC, NYC, US
 - Bioconductor's Carpentries Instructor Training (Education and Training)

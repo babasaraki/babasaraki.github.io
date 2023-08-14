@@ -68,7 +68,6 @@ h1 {
 }
 
 footer {
-  padding: 20px;
   text-align: center;
   font-size: 12px;
   max-width: 1140px;
@@ -80,12 +79,15 @@ hr {
   border-top: 1px solid darkcyan;
 }
 
-.main {
+.container {  
   max-width: 1140px;
+  margin: 0 5%;
+  flex: 1;
+}
+
+.main {
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
-  flex: 1;
   display: flex;
 }
 
@@ -117,7 +119,7 @@ hr {
 
 .main-content {
   flex: 3;
-  min-width: 800px;
+  /* min-width: 800px; */
   padding: 20px;
   background-color: #ffffff;
 }
@@ -160,5 +162,9 @@ hr {
 
   .main {
     display: block;
+  }
+
+  .container {  
+    margin: unset;
   }
 }

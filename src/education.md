@@ -1,17 +1,14 @@
 # Education and Qualifications
 
-### Universiti Putra Malaysia: Serdang, Selangor, MY
-- Doctor of Philosophy (Human Genetics)
-- 2016-02-08 to 2020-06-18
+- **2023-present**: Master of Business Administration (MBA) at [Sunway Business School](https://sunwayuniversity.edu.my/sunway-business-school), Sunway University, Malaysia.
 
-### Universiti Perdana: Serdang, Selangor, MY
-- Certificate (Centre for Bioinformatics - PUCBi)
-- 2017 to 2018
+- **2022-present**: Master of Public Health (MPH) at [Distance Learning Centre](https://abudlc.edu.ng), Ahmadu Bello University, Zaria, Nigeria.
 
-### Universiti Putra Malaysia: Serdang, Selangor, MY
-- Master of Science (MS) (Anatomy & Cancer Biology)
-- 2013-02-04 to 2015-01-13
+- **2016:2020:** Doctor of Philosophy Genetics and Genomics, [Genetics & Regenerative Medicine Research Centre (GRMRC)](https://grmrc.org), Universiti Putra Malaysia & [Malaysia Genome Institute (MGI)](http://nibm.my/v5/), Supervisor: [Professor Abhi Veerakumarasivam](https://scholar.google.com.my/citations?user=VZYZGVkAAAAJ&hl=en).
 
-### Ahmadu Bello University: Zaria, Kaduna, NG
-- BSc (Anatomy & Cell Biology)
-- 2006-03-03 to 2010-10-10
+- **2017:2018:** Certificate (Centre for Bioinformatics - PUCBi), [Perdana University Centre for Bioinformatics - PUCBi](https://www.perdanauniversity.edu.my), Perdana University, Malaysia. 
+
+ **2013:2015:** - Master of Science (MS) (Anatomy & Cancer Biology)
+, [Genetics & Regenerative Medicine Research Centre (GRMRC)](https://grmrc.org), Universiti Putra Malaysia.
+
+**2005:2010:** - BSc (Anatomy & Cell Biology), Department of Anatomy, Faculty of Medicine, Ahmadu Bello University, Zaria, Nigeria.
