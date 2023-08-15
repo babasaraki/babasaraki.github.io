@@ -14,7 +14,6 @@
 - ANA 2204 - Pelvis and Perineum 
 - ANA 2102 - Neuroanatomy
 
-
 ### Workshop and Talks 
 
 - [2023 - Corteva Webinar -- An Introduction to Data Analyses](class/corteva/index.md)
