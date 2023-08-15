@@ -23,7 +23,7 @@
 ### Invited Talks and Workshops 
 
 - 2023 - [Software Sustainability Institute 2023 Fellowship Application](https://zenodo.org/record/7140748)
-- [2022 - Hands-on tutorial to Genome-wide Association Studies (GWAS)](class/GWAS/index.md)
+- 2022 - [Hands-on tutorial to Genome-wide Association Studies (GWAS)](class/GWAS/index.md)
 - 2022 - [The Biology of Phylogenetic (Bauchi, Nigeria)](https://zenodo.org/record/7064889)
 - 2022 - [Reproducibility in Cancer Transcriptomics Research](https://zenodo.org/record/7144016)
 - 2022 - [Preprints: Accelerating Scholarly Communications](https://zenodo.org/record/6864062)
@@ -37,7 +37,6 @@
 - 2019 - Establishment of bladder cancer cell line persistently infected with Newcastle disease virus (Basel, Switzerland)
 - 2019 - [Dissecting the genomic profile of persistently infecting oncolytic Newcastle disease virus (NDVpi) from cancer RNA-Seq data (Malaysia)](https://zenodo.org/record/5565479)
 - 2018 - Development of an in vitro model system for Newcastle disease virus persistence in bladder cancer cells (Malaysia)
-- 
 
 ### Others
 
