@@ -8,6 +8,6 @@
 
 - **2017:2018:** Certificate  (Bioinformatics), [Perdana University Centre for Bioinformatics - PUCBi](https://www.perdanauniversity.edu.my), Perdana University, Malaysia. 
 
-- **2013:2015:** - Master of Science (MS) (Anatomy & Cancer Biology), [Genetics & Regenerative Medicine Research Centre (GRMRC)](https://grmrc.org), Universiti Putra Malaysia.
+- **2013:2015:** - Master of Science (MS) (with distinction) in (Anatomy & Cancer Biology), [Genetics & Regenerative Medicine Research Centre (GRMRC)](https://grmrc.org), Universiti Putra Malaysia.
 
-- **2005:2010:** - BSc (Anatomy & Cell Biology), Department of Anatomy, Faculty of Medicine, Ahmadu Bello University, Zaria, Nigeria.
+- **2005:2010:** - BSc (Anatomy & Cell Biology), Department of Anatomy, [Faculty of Medicine](https://medicine.abu.edu.ng), Ahmadu Bello University, Zaria, Nigeria.
