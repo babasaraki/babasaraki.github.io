@@ -129,6 +129,18 @@ hr {
   color: #ffffff;
 }
 
+.socials a {
+  border: unset;
+  text-decoration: none;
+}
+
+.socials a img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+}
+
+
 /* Media query for screens up to 768px */
 @media (max-width: 768px) {
   nav ul {
