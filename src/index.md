@@ -19,9 +19,10 @@ I am passionate about the opportunities to collaborate with biologists, scientis
 - Open Science
 
 # Skills  
-- Experience in next-generation sequencing data analysis
+- Next-generation sequencing data analysis
 - Pipeline development
-- Extensive experience with RNA- Seq data & Genomics analysis
+- Extensive experience with RNA- Seq 
+- Genomics analysis
 - Programming: R, Bash, Python, Git and LaTeX
 - Packages: SciPy, Pandas, Jupyter Tools, Seanborn
 - Effective communication skills
