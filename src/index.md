@@ -1,29 +1,13 @@
 # Biography
 
 ## Hey, I am Umar!
-I am an accomplished computational genomicist and the Head of the Anatomy Department at [Bauchi State University](https://basug.edu.ng), Nigeria. With a distinguished career in genetics and a focus on the regulatory pathways driving tumour recurrence and progression, my pioneering work primarily revolves around bladder cancer transcriptomics (RNA-Seq, scRNA-Seq, Microarray) and genomics (WGS, WES). I boasts a profound skill set in managing large scale genomic data, developing R/Bioconductor packages and utilising high-throughput sequence data analysis tools. As a passionate Open Science advocate, I founded the [Open Science Community Nigeria](https://www.oscnigeria.org/) to promote transparency and collaboration in scientific research and I am actively involved with an international team of scholarly professionals at [AfricArXiv](https://info.africarxiv.org) - the pan-African Open Access portal that increased discoverability of African research output. My role involves facilitating manuscript submission moderation and quality assurance. 
 
-Additionally, I have been actively involved in providing technical support to the National Public Health Institutes (NPHIs) and Regional Sequencing Hubs within the West African Region at [Africa CDC](https://africacdc.org). Specifically, I have been collaborating with institutions such as IPD Senegal, Nigeria CDC, NMIMR Ghana, ACEGID Nigeria and all the NPHIs. My role is to offer guidance and expertise to ensure effective implementation of the pathogen genomics programme across these laboratories and institutes. As the STO for Pathogen Genomics, I work closely with the NPHIs and Regional Hubs to enhance their capabilities in responding to outbreaks and improving infectious disease surveillance. This involves providing technical assistance, sharing best practices, and supporting the development and implementation of robust sampling methods, sequencing protocols, and data analysis techniques. Furthermore, my responsibilities include facilitating the establishment and functioning of a laboratory network within the Western RCC. This entails coordinating referrals, implementing quality assurance systems, and ensuring compliance with minimum quality standards for genomics laboratories.
+I am a Director of the Directorate of Linkages and International Partnerships at [Sa’adu Zungur University](https://basug.edu.ng/) (formerly Bauchi State University), strengthening international collaborations and research networks. Prior to this role, I served for three times as Head, Department of Anatomy and Unit Head of Human Genetics Informatics (HGI) at the same University. Additionally, I work as the Senior Technical Officer for Pathogen Genomics with Institute of Genomics at the [Africa CDC](https://africacdc.org/), where I support and coordinate genomics surveillance programmes at national public health institutes and regional sequencing hubs across West Africa, strengthening outbreak response and disease surveillance efforts. My work informs policies on molecular diagnostics, genomic sequencing and public health interventions, ensuring that genomics-based approaches contribute effectively to disease control. I also served as a visiting Bioinformatics Scientist at the Molecular Genetics and Infectious Disease (MOGID) Research Laboratory of the [Abubakar Tafawa Balewa University](https://www.atbu.edu.ng/web/front), Bauchi, Nigeria. In this role, I specialize in analysing large-scale sequencing datasets and training scientists in bioinformatics and genomic data analysis as a certified [Software Carpentry Instructor](https://carpentries.org/instructor-training/).
 
-I am passionate about the opportunities to collaborate with biologists, scientists, pathologists, data scientists to develop effective strategies to better understand and treat cancers and infectious diseases (pathogens). I am occasionally found on Twitter [@babasaraky](https://twitter.com/babasaraky), sharing science and most of the time on [Github](https://github.com/babasaraki), organising codes and repositories.
+With a deep passion for public health genomics and precision medicine, I leverages high-throughput sequencing technologies such as RNA sequencing (RNA-Seq), single-cell RNA sequencing (scRNA-Seq), whole-genome sequencing (WGS), and whole-exome sequencing (WES) to understand complex biological processes for public health application. My research primarily focuses on:
 
-# Interests 
+1. Cancer Genomics – Genomic profiling of bladder cancer and urothelial cell carcinoma, studying key molecular drivers, therapeutic resistance, and protein-protein interactions (PPI) in oncogenic pathways.
+1. Infectious Disease Genomics – Investigating oncolytic virotherapy mechanisms using Newcastle disease virus (NDV), particularly in persistent infections in cancer cells, and exploring pathogen genomics for public health surveillance.
+1. Genomic Surveillance & Bioinformatics – Developing computational pipelines for pathogen detection, and population genomics, applying Unix, R/Bioconductor, Python, and machine learning to analyze genomic data and inform public health decision-making.
 
-- Genomics 
-- Pathogen Genomics
-- Transcriptomics 
-- Association Mapping (GWAS)
-- Disease Genomics
-- Genomic Epidemiology
-- Data Science
-- Open Science
-
-# Skills  
-- Next-generation sequencing data analysis
-- Pipeline development
-- Extensive experience with RNA- Seq 
-- Genomics analysis
-- Programming: R, Bash, Python, Git and LaTeX
-- Packages: SciPy, Pandas, Jupyter Tools, Seanborn
-- Effective communication skills
-- Open Science and Open Data
+Beyond my technical contributions, I am dedicated to training and capacity building in genomics and bioinformatics. I teach undergraduate and postgraduate students, develop bioinformatics and genomics curricula, and mentors early-career scientists, encouraging them to embrace coding and computational biology as transformative skills in biomedical research. Additionally, I am deeply committed to fostering open science and research transparency. In 2022, I founded the [Open Science Community Nigeria (OSCN)](https://www.oscnigeria.org/), a nonprofit organization dedicated to fostering a culture of openness, transparency, and collaboration in scientific research and education across Nigeria. I am also the founder of [BioSeq](https://www.bioseqc.com/), a platform dedicated to providing bioinformatics services, data analysis, and hands-on training workshops for researchers and institutions. I am an active community leader in open-source bioinformatics and serves as a Community Board Member of [Bioconductor](https://bioconductor.org/about/community-advisory-board/#current-members) and Board Member of the [International Network of Open Science and Scholarships Communities (INOSC)](https://osc-international.com). I am passionate about the opportunities to collaborate with experts to better understand and treat cancers and circulating pathogens with pandemic potential.
