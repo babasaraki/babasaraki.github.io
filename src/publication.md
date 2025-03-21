@@ -1,4 +1,4 @@
-# Publication
+# Selected Publication
 
 ## Preprints 
 
@@ -33,8 +33,13 @@
 
 ## 2024
 
-- **Ferrão, LFV**.; Dhakal, R.; Dias, R.; Tieman, D.; Whitaker, V.; Gore, MA; Messina, C.; Resende Jr, MFR.; [Machine learning applications to improve flavor and nutritional content of horticultural crops through breeding and genetics](https://www.sciencedirect.com/science/article/pii/S0958166923000782?dgcid=coauthor). Current Opinion in Biotechnology. 2023
+- Ndiaye, M., Kane, M., Balde, D., Sankhé, S., Mbanne, M., Diop, S.M.S., **Ahmad, U.,** Mboowa, G., Sagne, S.N., Cisse, M. and Dia, N., 2024. [CDC Trioplex diagnostic assay underperforms in detection of circulating Chikungunya West African genotype](https://journals.asm.org/doi/full/10.1128/jcm.00405-24?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org). Journal of Clinical Microbiology, 62(7), pp.e00405-24.
 
+- **Ahmad, U.,** Ibrahim, B., Mohammed, M., Aldoghachi, A.F., Usman, M., Yakubu, A.H., Tanko, A.S., Bobbo, K.A., Garkuwa, U.A., Faggo, A.A. and Mustapha, S., 2024. [Transcriptome profiling research in urothelial cell carcinoma](https://onlinelibrary.wiley.com/doi/abs/10.1002/appl.202300002). Applied Research, 3(3), p.e202300002.
+  
+- Azmi, N.H.M., Suppiah, S., Ibrahim, N.S.N., Buhari, I., Seriramulu, V.P., Mohamad, M., Karuppiah, T., Omar, N.F., Ibrahim, N., Razali, R.M. and Harrun, N.H.,**Ahmad, U.,** 2024. [Default mode network perturbations in Alzheimer's disease: an fMRI study in Klang Valley, Malaysia](https://neuroscirn.org/ojs/index.php/nrnotes/article/view/284). Neuroscience Research Notes.
+
+- Seriramulu, V.P., Suppiah, S., Lee, H.H., Jang, J.H., Omar, N.F., Mohan, S.N., Ibrahim, N.S.N., Azmi, N.H.M., Buhari, I. and **Ahmad, U.,** 2024. [Review of MR spectroscopy analysis and artificial intelligence applications for the detection of cerebral inflammation and neurotoxicity in Alzheimer's disease](https://europepmc.org/article/med/38287765). The Medical Journal of Malaysia, 79(1), pp.102-110.
 
 ## 2023
 
