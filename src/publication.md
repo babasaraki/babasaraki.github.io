@@ -89,8 +89,8 @@
 
 - Ahmad, U. (2024) Practical Approach to Learning Bioinformatics.
 
+## Quick links  
 
-
-
+- [Google scholar](https://scholar.google.com.my/citations?hl=en&user=_AE595QAAAAJ&view_op=list_works&sortby=pubdate)
 
 
