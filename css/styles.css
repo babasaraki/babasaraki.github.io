@@ -5,6 +5,9 @@ body {
 }
 
 nav {
+  a, button {
+    font-weight: 600;
+  }
   a:hover {
     color: darkcyan;
   }
