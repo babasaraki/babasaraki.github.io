@@ -1,10 +1,11 @@
-</main>
-</div>
-</div>
-  <footer>
-    <hr>
-    <p>&copy; 2023 Umar Ahmad. All rights reserved.</p>
+    </main>
+  </div>
+  <footer class="max-w-8xl mx-auto text-center border-t-1 p-4 border-teal-500">
+    <p>&copy; <span id="year"></span> Umar Ahmad. All rights reserved.</p>
   </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
   <script src="js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
