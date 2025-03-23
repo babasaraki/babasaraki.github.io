@@ -11,3 +11,32 @@ With a deep passion for public health genomics and precision medicine, I leverag
 1. Genomic Surveillance & Bioinformatics – Developing computational pipelines for pathogen detection, and population genomics, applying Unix, R/Bioconductor, Python, and machine learning to analyze genomic data and inform public health decision-making.
 
 Beyond my technical contributions, I am dedicated to training and capacity building in genomics and bioinformatics. I teach undergraduate and postgraduate students, develop bioinformatics and genomics curricula, and mentors early-career scientists, encouraging them to embrace coding and computational biology as transformative skills in biomedical research. Additionally, I am deeply committed to fostering open science and research transparency. In 2022, I founded the [Open Science Community Nigeria (OSCN)](https://www.oscnigeria.org/), a nonprofit organization dedicated to fostering a culture of openness, transparency, and collaboration in scientific research and education across Nigeria. I am also the founder of [BioSeq](https://www.bioseqc.com/), a platform dedicated to providing bioinformatics services, data analysis, and hands-on training workshops for researchers and institutions. I am an active community leader in open-source bioinformatics and serves as a Community Board Member of [Bioconductor](https://bioconductor.org/about/community-advisory-board/#current-members) and Board Member of the [International Network of Open Science and Scholarships Communities (INOSC)](https://osc-international.com). I am passionate about the opportunities to collaborate with experts to better understand and treat cancers and circulating pathogens with pandemic potential.
+
+# Interests 
+
+- Genomics
+- Pathogen Genomics
+- Transcriptomics 
+- Association Mapping (GWAS)
+- Disease Genomics
+- Genomic Epidemiology
+- Data Science
+- Open Science
+
+# Skills  
+- Illumina, Nanopore, PacBio sequencing data
+- High performance computing using SLURM and familiarity with AWS
+- Next-generation sequencing data analysis
+- Pipeline development
+- Coding: R, Bash, Python, Git and LaTeX
+- Extensive experience with RNA- Seq 
+- Genomics analysis
+- Databases: NCBI Nucleotide, Pathogen Detection, SRA, KEGG functional pathways etc.
+- Packages: SciPy, Pandas, Jupyter Tools, Seanborn
+- Leading independent research projects
+- Teaching and mentoring
+- Technical, report and scientific writing
+- Effective communication skills
+- Open Science and Open Data
+
+
