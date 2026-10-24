@@ -1,8 +1,15 @@
 # `kind` is one of: service, membership, award.
 service:
-  - org: Open Science Community Nigeria
+  - org: African Bioinformatics Institute
+    role: Founding member — Community of Practice on Human Genomics and Genomic Medicine
+    period: 2025 – present
+  - org: Directory of Open Access Journals (DOAJ)
+    url: https://doaj.org
+    role: Board member
+    period: present
+  - org: Open Science Community Network (OSCN)
     url: https://www.oscnigeria.org/
-    role: Founder & Community Lead
+    role: Founder & Community Lead — established 2022 as Open Science Community Nigeria
     period: 2022 – present
   - org: BioSeq
     url: https://www.bioseqc.com/
@@ -47,6 +54,10 @@ memberships:
     period: "2020"
 
 awards:
+  - year: 2025
+    title: Global South Fellowship
+    org: Coalition for Epidemic Preparedness Innovations (CEPI)
+    note: July 2025 – August 2026
   - year: 2022
     title: Carpentries Instructor Training
     org: Bioconductor

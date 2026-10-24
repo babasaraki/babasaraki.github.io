@@ -10,22 +10,22 @@ photo_alt: Portrait of Umar Ahmad
 
 # One-sentence positioning line under the name on the home page.
 strapline: >-
-  I build and support genomic surveillance systems across West Africa, and study
-  the molecular drivers of bladder cancer and oncolytic virus persistence.
+  I strengthen genomic surveillance systems across Africa to inform public health
+  preparedness and outbreak response, while investigating the molecular mechanisms
+  of bladder cancer and oncolytic virus persistence through computational and
+  functional genomics.
 
 # Appear as small chips beneath the strapline.
 affiliations:
   - role: Associate Professor of Genetics and Genomics
     org: Federal University of Health Sciences, Azare
-  - role: Director, Directorate of Linkages and International Partnerships
-    org: Sa'adu Zungur University
-    url: https://basug.edu.ng/
-  - role: Senior Technical Officer, Pathogen Genomics
+    url: https://fuhsa.edu.ng
+  - role: Lead, Genomics Data Platform (AGARI)
     org: Institute of Genomics, Africa CDC
     url: https://africacdc.org/
-  - role: Visiting Bioinformatics Scientist, MOGID Laboratory
-    org: Abubakar Tafawa Balewa University
-    url: https://www.atbu.edu.ng/web/front
+  - role: Director, Directorate of Linkages and International Partnerships
+    org: Sa'adu Zungur University
+    url: https://sazu.edu.ng
 
 location: Bauchi, Nigeria · Addis Ababa, Ethiopia
 
@@ -74,13 +74,14 @@ links:
 # cv_pdf: /assets/cv/umar-ahmad-cv.pdf
 
 ventures:
-  - name: Directory of Open Access Publishers
-    note: Board member
-  - name: Open Science Community Network
-    note: Founder
-  - name: Open Science Community Nigeria
+  - name: Open Science Community Network (OSCN)
     url: https://www.oscnigeria.org/
-    note: Founder & Community Lead
+    note: Founder — established 2022 as Open Science Community Nigeria
+  - name: Directory of Open Access Journals (DOAJ)
+    url: https://doaj.org
+    note: Board member
+  - name: African Bioinformatics Institute
+    note: Founding member, CoP on Human Genomics and Genomic Medicine
   - name: BioSeq
     url: https://www.bioseqc.com/
     note: Founder & CEO

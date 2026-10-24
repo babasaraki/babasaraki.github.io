@@ -1,5 +1,6 @@
 # Reverse-chronological. `current: true` adds the "Present" badge.
 - org: Federal University of Health Sciences, Azare
+  url: https://fuhsa.edu.ng
   location: Bauchi State, Nigeria
   current: true
   roles:
@@ -7,12 +8,12 @@
       period: 2025 – present
 
 - org: Sa'adu Zungur University
-  url: https://basug.edu.ng/
+  url: https://sazu.edu.ng
   location: Bauchi, Nigeria
   current: true
   roles:
     - title: Director, Directorate of Linkages and International Partnerships
-      period: ""          # <- add the start year here (see README)
+      period: 2024 – 2026
       note: >-
         Strengthening international collaboration and research networks for the
         university.
@@ -26,6 +27,11 @@
   location: Addis Ababa, Ethiopia
   current: true
   roles:
+    - title: Lead, Genomics Data Platform (AGARI)
+      period: 2026 – present
+      note: >-
+        Africa CDC's continental platform for secure pathogen genomic data
+        sharing and public health intelligence.
     - title: Senior Technical Officer, Pathogen Genomics
       period: 2022 – present
       note: >-
@@ -36,13 +42,24 @@
 - org: Abubakar Tafawa Balewa University
   url: https://www.atbu.edu.ng/web/front
   location: Bauchi, Nigeria
-  current: true
   roles:
-    - title: Bioinformatics Scientist, Molecular Genetics & Infectious Disease (MOGID) Research Laboratory
-      period: 2021 – present
+    - title: Visiting Bioinformatics Scientist, Molecular Genetics & Infectious Disease (MOGID) Research Laboratory
+      period: 2021 – 2024
       note: >-
         Analysis of large-scale sequencing datasets; training scientists in
         bioinformatics and genomic data analysis.
+
+- org: Biomedical Research and Training Centre (BioRTC), Yobe State University
+  location: Damaturu, Nigeria
+  current: true
+  roles:
+    - title: Principal Investigator
+      period: ""          # <- add the start year if you want one shown
+
+- org: Coalition for Epidemic Preparedness Innovations (CEPI)
+  roles:
+    - title: CEPI Global South Fellow
+      period: July 2025 – August 2026
 
 - org: USAID HC3 Nigeria Malaria Project
   location: Bauchi, Nigeria
