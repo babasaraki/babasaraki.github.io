@@ -45,7 +45,7 @@ lead: >-
 <div class="grid grid-2">
   {% for v in p.ventures %}
     <div class="card">
-      <h3 style="font-size:1rem"><a href="{{ v.url }}" target="_blank" rel="noopener">{{ v.name }}</a></h3>
+      <h3 style="font-size:1rem">{% if v.url %}<a href="{{ v.url }}" target="_blank" rel="noopener">{{ v.name }}</a>{% else %}{{ v.name }}{% endif %}</h3>
       <div class="small muted">{{ v.note }}</div>
     </div>
   {% endfor %}

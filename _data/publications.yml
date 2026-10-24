@@ -301,7 +301,7 @@ items:
   year: 2024
   venue: Book
   type: book
-  url: ''
+  url: https://babasaraki.github.io/practical-bioinformatics/
 - title: Review of MR spectroscopy analysis and artificial intelligence applications for the detection
     of cerebral inflammation and neurotoxicity in Alzheimer's disease
   authors:

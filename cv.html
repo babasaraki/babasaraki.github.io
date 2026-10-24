@@ -57,6 +57,16 @@ lead: >-
   {% endfor %}
 </div>
 
+<h2 style="margin-top:2.5rem">Editorial roles</h2>
+<ul class="pub-list">
+  {% for e in site.data.activities.editorial %}
+    <li class="pub">
+      <div class="yr">{{ e.period }}</div>
+      <div><div class="t">{{ e.journal }}</div><div class="au">{{ e.role }}</div></div>
+    </li>
+  {% endfor %}
+</ul>
+
 <h2 style="margin-top:2.5rem">Memberships</h2>
 <ul class="pub-list">
   {% for m in site.data.activities.memberships %}

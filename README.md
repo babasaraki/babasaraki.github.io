@@ -18,7 +18,8 @@ lives in HTML. Add a paper, a course or an award by editing one YAML file.
 | Jobs and appointments | `_data/employment.yml` |
 | Degrees and training | `_data/education.yml` |
 | Courses, invited talks, workshops | `_data/teaching.yml` |
-| Service, memberships, awards | `_data/activities.yml` |
+| Service, editorial roles, memberships, awards | `_data/activities.yml` |
+| Software and teaching resources | `_data/software.yml` |
 | Journal quartiles (Q1–Q4 badges) | `_data/journal_quartiles.yml` |
 | Publication corrections and featured papers | `_data/pub_overrides.yml` |
 | The publication list itself | **generated** — see below |
@@ -100,8 +101,16 @@ Do **not** add a `.nojekyll` file — it disables the build and serves raw sourc
 ## Things to fill in
 
 - `_data/employment.yml` — the start year for the Directorate of Linkages role
-  is marked `TODO`.
+  is blank.
 - `_data/journal_quartiles.yml` — quartiles for 24 journals.
+- `_data/software.yml` — a one-line `summary:` for OncoSeq. Left empty rather
+  than guessed; the card renders fine without it.
+- `_data/profile.yml` — the Sa'adu Zungur University link still points at
+  `basug.edu.ng`. Your university address is now `@sazu.edu.ng`, so the web
+  address has probably moved too; change it if so.
+- `_data/profile.yml` — `Open Science Community Network` and
+  `Open Science Community Nigeria` are listed as separate entries under
+  `ventures:`, as given. Merge them if they are the same organisation.
 - `assets/cv/umar-ahmad-cv.pdf` — drop a PDF here and a download button appears
   on the CV page. Remove `cv_pdf:` from `_data/profile.yml` if you would rather
   not have one.

@@ -12,6 +12,8 @@ courses:
     items:
       - code: ANA 4301
         title: Genomics & Bioinformatics
+      - code: ""
+        title: Application of AI in Anatomy
       - code: ANA 3710
         title: Human Genetics
       - code: ANA 3316

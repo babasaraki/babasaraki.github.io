@@ -15,6 +15,8 @@ strapline: >-
 
 # Appear as small chips beneath the strapline.
 affiliations:
+  - role: Associate Professor of Genetics and Genomics
+    org: Federal University of Health Sciences, Azare
   - role: Director, Directorate of Linkages and International Partnerships
     org: Sa'adu Zungur University
     url: https://basug.edu.ng/
@@ -31,11 +33,11 @@ location: Bauchi, Nigeria · Addis Ababa, Ethiopia
 # Addresses are split so they are not trivially harvestable; the template
 # reassembles them in the browser.
 emails:
-  - user: umarahmadalfaruq
-    domain: gmail.com
+  - user: babasaraki
+    domain: yahoo.co.uk
     label: Personal
   - user: umarahmad
-    domain: basug.edu.ng
+    domain: sazu.edu.ng
     label: University
 phone: "+234 803 545 1519"
 address:
@@ -72,6 +74,10 @@ links:
 # cv_pdf: /assets/cv/umar-ahmad-cv.pdf
 
 ventures:
+  - name: Directory of Open Access Publishers
+    note: Board member
+  - name: Open Science Community Network
+    note: Founder
   - name: Open Science Community Nigeria
     url: https://www.oscnigeria.org/
     note: Founder & Community Lead

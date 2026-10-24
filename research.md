@@ -18,6 +18,20 @@ lead: >-
 {% endfor %}
 </div>
 
+<h2 style="margin-top:2.5rem">Software and resources</h2>
+<div class="grid grid-2">
+{% for sw in site.data.software %}
+  <article class="card">
+    <div class="card-icon">{% include icon.html name=sw.icon %}</div>
+    <h3 style="font-size:1.05rem">
+      {% if sw.url %}<a href="{{ sw.url }}" target="_blank" rel="noopener">{{ sw.name }}</a>{% else %}{{ sw.name }}{% endif %}
+    </h3>
+    <div class="meta"><span class="tag">{{ sw.kind }}</span>{% if sw.repo %}<span class="tiny">{{ sw.repo }}</span>{% endif %}</div>
+    {% if sw.summary and sw.summary != "" %}<p class="small muted" style="margin:.6rem 0 0">{{ sw.summary }}</p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+
 <h2 style="margin-top:2.5rem">Interests</h2>
 <ul class="pill-list">
   {% for i in site.data.profile.interests %}<li class="chip">{{ i }}</li>{% endfor %}

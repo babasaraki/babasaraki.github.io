@@ -1,4 +1,11 @@
 # Reverse-chronological. `current: true` adds the "Present" badge.
+- org: Federal University of Health Sciences, Azare
+  location: Bauchi State, Nigeria
+  current: true
+  roles:
+    - title: Associate Professor of Genetics and Genomics
+      period: 2025 – present
+
 - org: Sa'adu Zungur University
   url: https://basug.edu.ng/
   location: Bauchi, Nigeria

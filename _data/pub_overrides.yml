@@ -28,7 +28,7 @@ extra:
     year: 2024
     venue: Book
     type: book
-    url: ""
+    url: https://babasaraki.github.io/practical-bioinformatics/
   - title: "Default mode network perturbations in Alzheimer's disease: an fMRI study in Klang Valley, Malaysia"
     authors: ["Nur Hafizah Mohad Azmi", "Subapriya Suppiah", "Nur Shahidatul Nabila Ibrahim", "Buhari Ibrahim", "Umar Ahmad"]
     year: 2024

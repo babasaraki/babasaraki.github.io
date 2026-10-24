@@ -21,6 +21,14 @@ service:
     role: Submission moderator
     period: 2019 – present
 
+editorial:
+  - role: Academic Editor
+    journal: PLOS ONE
+    period: present
+  - role: Academic Editor
+    journal: Applied Research (Wiley)
+    period: present
+
 memberships:
   - org: American Society of Human Genetics
     role: Early Career Professional

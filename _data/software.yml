@@ -1,0 +1,17 @@
+# Software, tools and teaching resources shown on /research/.
+# `summary` is optional — leave it empty and only the title and link render.
+- name: OncoSeq
+  kind: Software
+  url: https://github.com/babasaraki/OncoSeq
+  repo: babasaraki/OncoSeq
+  summary: ""        # <- one line on what OncoSeq does; left blank rather than guessed
+  icon: dna
+
+- name: Practical Approach to Learning Bioinformatics
+  kind: Textbook
+  url: https://babasaraki.github.io/practical-bioinformatics/
+  summary: >-
+    An open textbook introducing bioinformatics from first principles, written
+    for students coming to computational biology without a programming
+    background.
+  icon: users
