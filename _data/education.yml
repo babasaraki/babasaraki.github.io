@@ -1,0 +1,39 @@
+- degree: Master of Public Health (MPH)
+  field: Public Health
+  institution: University of Liverpool
+  institution_url: https://www.liverpool.ac.uk/courses/master-of-public-health-mph
+  period: 2024 – present
+  current: true
+
+- degree: Doctor of Philosophy (PhD)
+  field: Genetics and Genomics
+  institution: Universiti Putra Malaysia
+  institution_url: https://grmrc.org
+  period: 2016 – 2020
+  detail: >-
+    Genetics & Regenerative Medicine Research Centre (GRMRC) and the Malaysia
+    Genome Institute (MGI).
+  thesis: >-
+    Identification of molecular pathways associated with Newcastle disease virus
+    (AF2240) persistent infection in bladder cancer cells.
+  supervisor: Professor Abhi Veerakumarasivam
+  supervisor_url: https://scholar.google.com.my/citations?user=VZYZGVkAAAAJ&hl=en
+
+- degree: Certificate in Bioinformatics
+  institution: Perdana University Centre for Bioinformatics (PUCBi)
+  institution_url: https://www.perdanauniversity.edu.my
+  period: 2017 – 2018
+
+- degree: Master of Science (MSc), with distinction
+  field: Anatomy & Cancer Biology
+  institution: Universiti Putra Malaysia
+  institution_url: https://grmrc.org
+  period: 2013 – 2015
+  detail: Genetics & Regenerative Medicine Research Centre (GRMRC).
+
+- degree: Bachelor of Science (BSc)
+  field: Anatomy & Cell Biology
+  institution: Ahmadu Bello University, Zaria
+  institution_url: https://medicine.abu.edu.ng
+  period: 2005 – 2010
+  detail: Department of Anatomy, Faculty of Medicine.

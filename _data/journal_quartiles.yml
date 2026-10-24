@@ -1,0 +1,161 @@
+# ---------------------------------------------------------------------------
+# Journal quartiles — the ONLY place the site reads Q1/Q2/Q3/Q4 from.
+#
+# Fill in `quartile:` for each journal from SCImago (scimagojr.com) or the
+# Scopus/JCR source you prefer, using the BEST quartile across that journal's
+# subject categories, and set `category:` to the category that quartile came
+# from. Leave `quartile:` empty and the article simply renders without a badge.
+#
+# `citedness` is the OpenAlex 2-year mean citedness, shown here only to help
+# you work down the list fastest-first. It is NOT used to infer a quartile.
+#
+# Re-check annually; SJR republishes each spring.
+# ---------------------------------------------------------------------------
+source: SCImago Journal Rank
+year: 2025        # <- the SJR edition you took these from
+
+journals:
+  - journal: "Nature Communications"
+    issn: "2041-1723"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 18.64        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Saudi Journal of Biological Sciences"
+    issn: "1319-562X"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 9.01        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Scientific Reports"
+    issn: "2045-2322"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 5.32        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Journal of Clinical Microbiology"
+    issn: "0095-1137"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 4.69        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Viruses"
+    issn: "1999-4915"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 4.63        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "BMC Cancer"
+    issn: "1471-2407"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 3.99        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Molecular Psychology Brain Behavior and Society"
+    issn: "2752-8286"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 3.3        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "European Journal of Neuroscience"
+    issn: "0953-816X"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 2.85        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "BMC Proceedings"
+    issn: "1753-6561"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 2.14        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Global Health"
+    issn: "2054-4200"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 2.02        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Applied Research"
+    issn: "2702-4288"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 1.5        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "BioMed Research International"
+    issn: "1110-7243"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 1.24        # OpenAlex 2-yr mean citedness — reference only
+    papers: 2
+  - journal: "Disease Markers"
+    issn: "0278-0240"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 1.16        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "International Journal of Morphology"
+    issn: "0717-9367"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.53        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Journal of Research in Veterinary Sciences"
+    issn: "2983-757X"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.36        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "HIV & AIDS Review"
+    issn: "1730-1270"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.34        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Gadau Journal of Pure and Allied Sciences"
+    issn: "2955-1722"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.24        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "South Eastern European Journal of Public Health"
+    issn: "2197-5248"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.17        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Asian Journal of Health Sciences"
+    issn: "2347-5218"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.06        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Journal of Morphological Sciences"
+    issn: "2177-0298"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.0        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "International Journal of Biomedical Research"
+    issn: "0976-9633"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.0        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "West African Journal of Allied Health Sciences"
+    issn: "3115-4573"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""          # e.g. "Genetics (miscellaneous)"
+    citedness: 0.0        # OpenAlex 2-yr mean citedness — reference only
+    papers: 1
+  - journal: "Neuroscience Research Notes"
+    issn: "2576-828X"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""
+    citedness: 0.0
+    papers: 1
+  - journal: "The Medical Journal of Malaysia"
+    issn: "0300-5283"
+    quartile: ""          # Q1 | Q2 | Q3 | Q4
+    category: ""
+    citedness: 0.0
+    papers: 1

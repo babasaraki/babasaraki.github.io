@@ -1,0 +1,27 @@
+---
+layout: page
+permalink: /blog/
+title: Writing
+eyebrow: Notes, essays and explainers
+lead: >-
+  Longer pieces live on Substack; shorter notes and teaching material are
+  posted here.
+---
+<div class="actions" style="margin:-.5rem 0 2rem">
+  <a class="btn btn-primary" href="{{ site.data.profile.links | where: 'name','Substack' | map: 'url' | first }}" target="_blank" rel="noopener">
+    {% include icon.html name="substack" size=17 %} Read on Substack
+  </a>
+  <a class="btn btn-ghost" href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+</div>
+
+{% if site.posts.size > 0 %}
+  {% for post in site.posts %}
+    <article class="post-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="tiny muted">{{ post.date | date: "%e %B %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: " · " }}{% endif %}</div>
+      <p class="small muted" style="margin:.4rem 0 0">{{ post.description | default: post.excerpt | strip_html | truncate: 220 }}</p>
+    </article>
+  {% endfor %}
+{% else %}
+  <p class="empty">No posts here yet — everything is on Substack for now.</p>
+{% endif %}

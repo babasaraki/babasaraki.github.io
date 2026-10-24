@@ -1,0 +1,52 @@
+---
+layout: page
+permalink: /contact/
+title: Contact
+eyebrow: Get in touch
+lead: >-
+  For collaboration, student supervision, training requests or speaking
+  invitations.
+---
+{%- assign p = site.data.profile -%}
+
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-icon">{% include icon.html name="mail" %}</div>
+    <h3>Email</h3>
+    {% for e in p.emails %}
+      <p style="margin:.2rem 0">
+        <span class="tiny muted">{{ e.label }}</span><br>
+        <a class="js-email" href="#" data-user="{{ e.user }}" data-domain="{{ e.domain }}">{{ e.user }}&#8203; [at] {{ e.domain }}</a>
+      </p>
+    {% endfor %}
+    <p class="tiny muted" style="margin-top:.8rem">Addresses are assembled in your browser to keep scrapers out.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">{% include icon.html name="pin" %}</div>
+    <h3>Post</h3>
+    <p class="small muted" style="margin:0">
+      {% for line in p.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+    </p>
+    <p class="small" style="margin-top:.8rem">
+      {% include icon.html name="phone" size=15 %} {{ p.phone }}
+    </p>
+  </div>
+</div>
+
+<h2 style="margin-top:2.5rem">Elsewhere</h2>
+<ul class="pill-list">
+  {% for l in p.links %}
+    <li><a class="chip" href="{{ l.url }}" target="_blank" rel="noopener me">{% include icon.html name=l.icon size=15 %} {{ l.name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2 style="margin-top:2.5rem">Organisations I run or serve</h2>
+<div class="grid grid-2">
+  {% for v in p.ventures %}
+    <div class="card">
+      <h3 style="font-size:1rem"><a href="{{ v.url }}" target="_blank" rel="noopener">{{ v.name }}</a></h3>
+      <div class="small muted">{{ v.note }}</div>
+    </div>
+  {% endfor %}
+</div>

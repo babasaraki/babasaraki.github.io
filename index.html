@@ -1,0 +1,183 @@
+---
+layout: default
+title: About
+description: >-
+  Umar Ahmad, PhD — Senior Genomic Scientist working on cancer genomics,
+  oncolytic virotherapy and pathogen genomic surveillance across West Africa.
+---
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.data.publications -%}
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <img class="portrait" src="{{ p.photo | relative_url }}" alt="{{ p.photo_alt }}" width="360" height="360">
+    <div>
+      <h1>{{ p.name }}{% if p.credentials %}, {{ p.credentials }}{% endif %}</h1>
+      <div class="role">{{ p.role }}</div>
+      <p class="strapline">{{ p.strapline }}</p>
+
+      <ul class="chips">
+        {% for a in p.affiliations %}
+          <li><a class="chip" href="{{ a.url }}" target="_blank" rel="noopener">{{ a.role }} · <b>{{ a.org }}</b></a></li>
+        {% endfor %}
+      </ul>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ '/publications/' | relative_url }}">Publications {% include icon.html name="arrow" size=17 %}</a>
+        <a class="btn btn-ghost" href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+        <a class="btn btn-ghost" href="{{ '/contact/' | relative_url }}">{% include icon.html name="mail" size=17 %} Get in touch</a>
+      </div>
+
+      <div class="socials">
+        {% for l in p.links %}
+          <a href="{{ l.url }}" target="_blank" rel="noopener me" title="{{ l.name }}" aria-label="{{ l.name }}">{% include icon.html name=l.icon size=18 %}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="metrics">
+      <div class="metric"><div class="n">{{ pubs.metrics.works }}</div><div class="l">Publications</div></div>
+      <div class="metric"><div class="n">{{ pubs.metrics.citations }}</div><div class="l">Citations</div></div>
+      <div class="metric"><div class="n">{{ pubs.metrics.h_index }}</div><div class="l">h-index</div></div>
+      <div class="metric"><div class="n">{{ pubs.metrics.i10_index }}</div><div class="l">i10-index</div></div>
+    </div>
+    <p class="tiny muted" style="margin-top:.6rem">
+      From <a href="{{ pubs.source }}" target="_blank" rel="noopener">OpenAlex</a>, {{ pubs.updated | date: "%e %B %Y" }}.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Biography</div>
+        <h2>What I work on</h2>
+      </div>
+    </div>
+    <div class="prose">
+      <p>
+        I direct the Directorate of Linkages and International Partnerships at
+        <a href="https://basug.edu.ng/" target="_blank" rel="noopener">Sa'adu Zungur University</a>,
+        where I build the international collaborations and research networks the university runs on.
+        I previously served three terms as Head of the Department of Anatomy and as Unit Head of
+        Human Genetics Informatics there.
+      </p>
+      <p>
+        Alongside that I am Senior Technical Officer for Pathogen Genomics at the Institute of Genomics,
+        <a href="https://africacdc.org/" target="_blank" rel="noopener">Africa CDC</a>, supporting and
+        coordinating genomic surveillance programmes at national public health institutes and regional
+        sequencing hubs across West Africa. That work feeds directly into policy on molecular diagnostics,
+        sequencing and outbreak response — the point is not the sequence data but the decisions it enables.
+        I am also a visiting Bioinformatics Scientist at the Molecular Genetics and Infectious Disease
+        (MOGID) Research Laboratory,
+        <a href="https://www.atbu.edu.ng/web/front" target="_blank" rel="noopener">Abubakar Tafawa Balewa University</a>,
+        and a certified
+        <a href="https://carpentries.org/instructor-training/" target="_blank" rel="noopener">Carpentries instructor</a>.
+      </p>
+      <p>
+        My research uses high-throughput sequencing — bulk and single-cell RNA-Seq, whole-genome and
+        whole-exome sequencing — to get at questions in cancer biology and infectious disease. In 2022 I
+        founded <a href="https://www.oscnigeria.org/" target="_blank" rel="noopener">Open Science Community Nigeria</a>,
+        and I serve on the <a href="https://bioconductor.org/about/community-advisory-board/#current-members" target="_blank" rel="noopener">Bioconductor</a>
+        Community Advisory Board and the board of
+        <a href="https://osc-international.com" target="_blank" rel="noopener">INOSC</a>.
+        I founded <a href="https://www.bioseqc.com/" target="_blank" rel="noopener">BioSeq</a> to provide
+        bioinformatics services, analysis and hands-on training to researchers and institutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Research</div>
+        <h2>Four strands</h2>
+      </div>
+      <a href="{{ '/research/' | relative_url }}">In detail {% include icon.html name="arrow" size=15 %}</a>
+    </div>
+    <div class="grid grid-2">
+      {% for r in site.data.research %}
+        <article class="card">
+          <div class="card-icon">{% include icon.html name=r.icon %}</div>
+          <h3>{{ r.title }}</h3>
+          <p class="small muted" style="margin:0">{{ r.summary }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%} Selected work: Q1/Q2 journals when the quartile file is filled in,
+otherwise the hand-picked DOIs in _data/pub_overrides.yml. {%- endcomment -%}
+{%- assign qA = site.data.journal_quartiles.journals | where: "quartile", "Q1" -%}
+{%- assign qB = site.data.journal_quartiles.journals | where: "quartile", "Q2" -%}
+{%- assign q12 = qA | concat: qB -%}
+{%- assign q12issns = q12 | map: "issn" -%}
+{%- assign arts = pubs.items | where: "type", "article" -%}
+{%- assign nq = 0 -%}
+{%- for a in arts %}{% if q12issns contains a.issn %}{% assign nq = nq | plus: 1 %}{% endif %}{% endfor -%}
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Selected work</div>
+        <h2>{% if nq > 0 %}Q1 and Q2 journal articles{% else %}Representative articles{% endif %}</h2>
+      </div>
+      <a href="{{ '/publications/' | relative_url }}">All {{ pubs.metrics.works }} outputs {% include icon.html name="arrow" size=15 %}</a>
+    </div>
+
+    <ul class="pub-list">
+      {%- if nq > 0 -%}
+        {%- assign shown = 0 -%}
+        {%- for a in arts -%}
+          {%- if shown < 8 and q12issns contains a.issn -%}
+            {% include pub-item.html pub=a %}
+            {%- assign shown = shown | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- for doi in pubs.featured -%}
+          {%- assign a = pubs.items | where: "doi", doi | first -%}
+          {%- if a %}{% include pub-item.html pub=a %}{% endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    </ul>
+  </div>
+</section>
+
+{% if site.posts.size > 0 %}
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div><div class="eyebrow">Writing</div><h2>Recent posts</h2></div>
+      <a href="{{ '/blog/' | relative_url }}">All posts {% include icon.html name="arrow" size=15 %}</a>
+    </div>
+    {% for post in site.posts limit: 3 %}
+      <article class="post-item">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="tiny muted">{{ post.date | date: "%e %B %Y" }}</div>
+        <p class="small muted" style="margin:.4rem 0 0">{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section>
+  <div class="wrap">
+    <div class="callout">
+      <strong>Open to collaboration.</strong>
+      I am interested in work on cancer genomics, oncolytic virus biology, and pathogen genomic
+      surveillance in low-resource settings — and in training partnerships that leave capacity behind.
+      <a href="{{ '/contact/' | relative_url }}">Get in touch</a>.
+    </div>
+  </div>
+</section>

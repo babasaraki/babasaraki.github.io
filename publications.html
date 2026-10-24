@@ -1,0 +1,55 @@
+---
+layout: page
+permalink: /publications/
+title: Publications
+eyebrow: Peer-reviewed articles, preprints and other outputs
+lead: >-
+  The full record, pulled from OpenAlex and refreshed with a script in this
+  repository. Filter by type, by journal quartile, or search titles, authors
+  and venues.
+---
+{%- assign pubs = site.data.publications -%}
+{%- assign q12 = site.data.journal_quartiles.journals | where_exp: "j", "j.quartile != ''" -%}
+
+<div class="metrics" style="margin-bottom:1.75rem">
+  <div class="metric"><div class="n">{{ pubs.metrics.works }}</div><div class="l">Outputs</div></div>
+  <div class="metric"><div class="n">{{ pubs.metrics.citations }}</div><div class="l">Citations</div></div>
+  <div class="metric"><div class="n">{{ pubs.metrics.h_index }}</div><div class="l">h-index</div></div>
+  <div class="metric"><div class="n">{{ pubs.metrics.i10_index }}</div><div class="l">i10-index</div></div>
+</div>
+
+<div class="pub-controls">
+  <input class="pub-search" id="pubSearch" type="search" placeholder="Search title, author or journal…" aria-label="Search publications">
+  <div class="filters" role="group" aria-label="Filter by type">
+    <button class="filter" data-filter="type" data-value="" aria-pressed="true">All</button>
+    <button class="filter" data-filter="type" data-value="article" aria-pressed="false">Articles</button>
+    <button class="filter" data-filter="type" data-value="preprint" aria-pressed="false">Preprints</button>
+    <button class="filter" data-filter="type" data-value="book" aria-pressed="false">Books</button>
+    <button class="filter" data-filter="type" data-value="conference" aria-pressed="false">Conference</button>
+    <button class="filter" data-filter="type" data-value="dataset" aria-pressed="false">Data</button>
+  </div>
+  {% if q12.size > 0 %}
+  <div class="filters" role="group" aria-label="Filter by journal quartile">
+    <button class="filter" data-filter="quartile" data-value="" aria-pressed="true">Any quartile</button>
+    <button class="filter" data-filter="quartile" data-value="Q1" aria-pressed="false">Q1</button>
+    <button class="filter" data-filter="quartile" data-value="Q2" aria-pressed="false">Q2</button>
+    <button class="filter" data-filter="quartile" data-value="Q1,Q2" aria-pressed="false">Q1 + Q2</button>
+  </div>
+  {% endif %}
+</div>
+
+<p class="small muted" id="pubCount" aria-live="polite"></p>
+
+<ul class="pub-list" id="pubList">
+  {% for pub in pubs.items %}{% include pub-item.html pub=pub %}{% endfor %}
+</ul>
+<p class="empty" id="pubEmpty" hidden>No publications match that filter.</p>
+
+<p class="tiny muted" style="margin-top:1.5rem">
+  Record generated from <a href="{{ pubs.source }}" target="_blank" rel="noopener">OpenAlex</a> on
+  {{ pubs.updated | date: "%e %B %Y" }}.
+  {% if q12.size > 0 %}Quartiles from {{ site.data.journal_quartiles.source }} {{ site.data.journal_quartiles.year }}, applied per journal.{% endif %}
+  Also on
+  <a href="{{ site.data.profile.links | where: 'name','Google Scholar' | map: 'url' | first }}" target="_blank" rel="noopener">Google Scholar</a>
+  and <a href="https://orcid.org/{{ site.data.profile.orcid }}" target="_blank" rel="noopener">ORCID</a>.
+</p>

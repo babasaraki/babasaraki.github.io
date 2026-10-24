@@ -1,0 +1,48 @@
+# Research areas shown as cards on the home page and on /research/.
+- title: Cancer Genomics
+  icon: dna
+  summary: >-
+    Genomic and transcriptomic profiling of bladder cancer and urothelial cell
+    carcinoma — molecular drivers, therapeutic resistance and protein–protein
+    interaction networks in oncogenic pathways.
+  points:
+    - Hub-gene discovery from PPI networks of transcriptomic expression
+    - Candidate biomarkers for bladder cancer (CERS2, EN2)
+    - Systematic synthesis of GWAS and biomarker evidence in bladder cancer
+  keywords: [bladder cancer, urothelial carcinoma, transcriptomics, biomarkers]
+
+- title: Oncolytic Virotherapy
+  icon: virus
+  summary: >-
+    Mechanisms of Newcastle disease virus (NDV) persistence in cancer cells —
+    how a persistently infecting virus rewires the host transcriptome, and what
+    that means for the therapeutic window.
+  points:
+    - In vitro models of NDV persistence in bladder cancer cell lines
+    - Functional transcriptome analysis of persistently infected cells
+    - Genomic alterations in persistently infecting NDV
+  keywords: [NDV, oncolytic virus, persistent infection, virotherapy]
+
+- title: Genomic Surveillance & Public Health
+  icon: globe
+  summary: >-
+    Computational pipelines for pathogen detection and population genomics, and
+    the systems work of embedding sequencing into national public health
+    institutes and regional hubs across West Africa.
+  points:
+    - Support to national public health institutes and regional sequencing hubs
+    - Diagnostic assay performance against circulating African genotypes
+    - Evidence for policy on molecular diagnostics and sequencing
+  keywords: [pathogen genomics, outbreak response, Africa CDC, surveillance]
+
+- title: Training & Open Science
+  icon: users
+  summary: >-
+    Building bioinformatics capacity where it is scarcest — curricula, carpentry
+    workshops, and the community infrastructure that keeps research open,
+    reproducible and locally owned.
+  points:
+    - Certified Carpentries instructor; workshop design and delivery
+    - Undergraduate and postgraduate genomics curricula
+    - Founder, Open Science Community Nigeria
+  keywords: [capacity building, Carpentries, open science, reproducibility]

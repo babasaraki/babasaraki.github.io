@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Hand-maintained corrections applied by scripts/update_publications.py on top
+# of the OpenAlex record. This file is never overwritten by the script.
+# ---------------------------------------------------------------------------
+
+# DOIs wrongly attributed to you in OpenAlex (name collision with Ahmad Umar,
+# the materials scientist at Najran University). Add any others you spot.
+exclude:
+  - 10.1166/eef.2012.1001
+  - 10.1166/mat.2012.1001
+  - 10.1166/rase.2012.1001
+  - 10.1063/1.3647981
+  - 10.1063/1.3638077
+
+# Shown in the "Selected work" block on the home page, in this order.
+featured:
+  - 10.1038/s41598-022-20521-z
+  - 10.1128/jcm.00405-24
+  - 10.1038/s41467-021-23784-8
+  - 10.1002/appl.202300002
+  - 10.1186/s12885-019-5516-5
+  - 10.1016/j.sjbs.2023.103685
+
+# Items OpenAlex does not index. Merged into the list verbatim.
+extra:
+  - title: "Practical Approach to Learning Bioinformatics"
+    authors: ["Umar Ahmad"]
+    year: 2024
+    venue: Book
+    type: book
+    url: ""
+  - title: "Default mode network perturbations in Alzheimer's disease: an fMRI study in Klang Valley, Malaysia"
+    authors: ["Nur Hafizah Mohad Azmi", "Subapriya Suppiah", "Nur Shahidatul Nabila Ibrahim", "Buhari Ibrahim", "Umar Ahmad"]
+    year: 2024
+    venue: Neuroscience Research Notes
+    issn: "2576-828X"
+    type: article
+    url: https://neuroscirn.org/ojs/index.php/nrnotes/article/view/284
+  - title: "Review of MR spectroscopy analysis and artificial intelligence applications for the detection of cerebral inflammation and neurotoxicity in Alzheimer's disease"
+    authors: ["Vijayakumar Palaniappan Seriramulu", "Subapriya Suppiah", "Hyeon-Ho Lee", "Jae-Hyeok Jang", "Umar Ahmad"]
+    year: 2024
+    venue: The Medical Journal of Malaysia
+    issn: "0300-5283"
+    type: article
+    url: https://europepmc.org/article/med/38287765
+  - title: "Seed-based morphometry of nodes in the default mode network among patients with Alzheimer's disease in Klang Valley, Malaysia"
+    authors: ["Nur Hafizah Mohad Azmi", "Subapriya Suppiah", "Nur Shahidatul Nabila Ibrahim", "Buhari Ibrahim", "Umar Ahmad"]
+    year: 2023
+    venue: medRxiv
+    type: preprint
+    doi: 10.1101/2023.08.29.23294758
+    url: https://doi.org/10.1101/2023.08.29.23294758
+  - title: "First Nigerian Bioinformatics Conference (FNBC): towards a dynamic bioinformatics community"
+    authors: ["ThankGod E. Ebenezer", "Itunuoluwa Isewon", "Elijah K. Oladipo", "Olaitan Awe", "Umar Ahmad"]
+    year: 2019
+    venue: First Nigerian Bioinformatics Conference
+    type: conference
+    url: http://eprints.lmu.edu.ng/3178/

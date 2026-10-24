@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d6e63" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)">
+
+{%- comment -%} Set the theme before first paint so there is no flash. {%- endcomment -%}
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+
+{%- seo -%}
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+{%- assign p = site.data.profile -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ p.name | jsonify }},
+  "givenName": "Umar",
+  "familyName": "Ahmad",
+  "jobTitle": {{ p.role | jsonify }},
+  "description": {{ site.description | strip_newlines | jsonify }},
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  "image": {{ p.photo | absolute_url | jsonify }},
+  "identifier": "https://orcid.org/{{ p.orcid }}",
+  "affiliation": [{% for a in p.affiliations %}{"@type":"Organization","name":{{ a.org | jsonify }}{% if a.url %},"url":{{ a.url | jsonify }}{% endif %}}{% unless forloop.last %},{% endunless %}{% endfor %}],
+  "knowsAbout": {{ p.interests | jsonify }},
+  "sameAs": [{% for l in p.links %}{{ l.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]
+}
+</script>

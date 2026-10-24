@@ -1,0 +1,56 @@
+# Reverse-chronological. `current: true` adds the "Present" badge.
+- org: Sa'adu Zungur University
+  url: https://basug.edu.ng/
+  location: Bauchi, Nigeria
+  current: true
+  roles:
+    - title: Director, Directorate of Linkages and International Partnerships
+      period: ""          # <- add the start year here (see README)
+      note: >-
+        Strengthening international collaboration and research networks for the
+        university.
+    - title: Head, Department of Anatomy (three terms)
+      period: ""
+    - title: Unit Head, Human Genetics Informatics (HGI)
+      period: ""
+
+- org: Africa Centres for Disease Control and Prevention
+  url: https://africacdc.org/
+  location: Addis Ababa, Ethiopia
+  current: true
+  roles:
+    - title: Senior Technical Officer, Pathogen Genomics
+      period: 2022 – present
+      note: >-
+        Supporting and coordinating genomic surveillance programmes at national
+        public health institutes and regional sequencing hubs across West Africa;
+        informing policy on molecular diagnostics and sequencing.
+
+- org: Abubakar Tafawa Balewa University
+  url: https://www.atbu.edu.ng/web/front
+  location: Bauchi, Nigeria
+  current: true
+  roles:
+    - title: Bioinformatics Scientist, Molecular Genetics & Infectious Disease (MOGID) Research Laboratory
+      period: 2021 – present
+      note: >-
+        Analysis of large-scale sequencing datasets; training scientists in
+        bioinformatics and genomic data analysis.
+
+- org: USAID HC3 Nigeria Malaria Project
+  location: Bauchi, Nigeria
+  roles:
+    - title: Consultant, HC3 Data Collection
+      period: "2017"
+
+- org: Universiti Putra Malaysia
+  location: Serdang, Selangor, Malaysia
+  roles:
+    - title: Teaching Assistant, PreMEDIC Mesir (Anatomy)
+      period: 2013 – 2016
+
+- org: Targeted States High Impact Project (TSHIP) / USAID
+  location: Bauchi, Nigeria
+  roles:
+    - title: Project Supervisor
+      period: 2012 – 2014

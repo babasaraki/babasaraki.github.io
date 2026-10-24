@@ -1,0 +1,76 @@
+# `kind` is one of: service, membership, award.
+service:
+  - org: Open Science Community Nigeria
+    url: https://www.oscnigeria.org/
+    role: Founder & Community Lead
+    period: 2022 – present
+  - org: BioSeq
+    url: https://www.bioseqc.com/
+    role: Founder & CEO
+    period: 2013 – present
+  - org: Bioconductor
+    url: https://bioconductor.org/about/community-advisory-board/#current-members
+    role: Community Advisory Board member
+    period: present
+  - org: International Network of Open Science and Scholarship Communities (INOSC)
+    url: https://osc-international.com
+    role: Board member
+    period: present
+  - org: AfricArXiv
+    url: https://info.africarxiv.org
+    role: Submission moderator
+    period: 2019 – present
+
+memberships:
+  - org: American Society of Human Genetics
+    role: Early Career Professional
+    period: 2020 – present
+  - org: Nigerian Society of Human Genetics (NSHG)
+    role: Associate member
+    period: 2019 – present
+  - org: Nigerian Bioinformatics and Genomics Network
+    role: Lifetime member
+    period: 2019 – present
+  - org: Royal Statistical Society
+    role: Member
+    period: "2021"
+  - org: Bioinformatics Organization Inc.
+    role: Member
+    period: "2020"
+
+awards:
+  - year: 2022
+    title: Carpentries Instructor Training
+    org: Bioconductor
+  - year: 2022
+    title: Recognition for supporting the establishment of BioRTC
+    org: Yobe State Government
+  - year: 2021
+    title: ASAPbio Fellowship (Preprints)
+    org: ASAPbio
+    url: https://asapbio.org/2021-asapbio-fellows
+  - year: 2020
+    title: Certified Tidyverse Instructor Award
+    org: RStudio (Posit)
+  - year: 2020
+    title: Galaxy Community Fund Fellowship Award
+    org: Galaxy
+  - year: 2020
+    title: Travel Award
+    org: Bioconductor
+  - year: 2019
+    title: ISCB Travel Award
+    org: International Society for Computational Biology
+    note: Basel, Switzerland
+  - year: 2019
+    title: Young Researcher Award
+    org: ASEAN Young Scientist Network
+  - year: 2017
+    title: International Graduate Research Fellowship (IGRF)
+    org: Universiti Putra Malaysia
+  - year: 2016
+    title: APSN Neuroscience School Travel Award
+    org: Asian Pacific Society of Neurochemistry
+  - year: 2014
+    title: International Symposium Travel Award
+    org: Okinawa Institute of Science and Technology Graduate University

@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /404.html
+title: Page not found
+eyebrow: Error 404
+lead: That page does not exist — it may have moved when the site was rebuilt.
+sitemap: false
+---
+<ul class="pill-list">
+  {% for item in site.data.nav %}
+    <li><a class="chip" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>

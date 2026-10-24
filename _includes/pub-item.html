@@ -1,0 +1,63 @@
+{%- comment -%}
+One publication row.
+  include.pub      — an entry from _data/publications.yml
+  include.compact  — true to hide the type/citation metadata line
+Quartile badges come only from _data/journal_quartiles.yml; a journal with an
+empty `quartile` renders no badge.
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+
+{%- assign q = "" -%}
+{%- assign qcat = "" -%}
+{%- if pub.issn and pub.issn != "" -%}
+  {%- assign hit = site.data.journal_quartiles.journals | where: "issn", pub.issn | first -%}
+  {%- if hit and hit.quartile and hit.quartile != "" -%}
+    {%- assign q = hit.quartile -%}
+    {%- assign qcat = hit.category -%}
+  {%- endif -%}
+{%- endif -%}
+
+<li class="pub"
+    data-year="{{ pub.year }}"
+    data-type="{{ pub.type }}"
+    data-quartile="{{ q }}"
+    data-text="{{ pub.title | append: ' ' | append: pub.venue | append: ' ' | append: pub.authors | join: ' ' | downcase | strip_newlines | escape_once }}">
+  <div class="yr">{{ pub.year }}</div>
+  <div>
+    <div class="t">
+      {%- if pub.url and pub.url != "" -%}
+        <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+      {%- else -%}
+        {{ pub.title }}
+      {%- endif -%}
+    </div>
+
+    {%- if pub.authors and pub.authors.size > 0 -%}
+      <div class="au">
+        {%- for a in pub.authors -%}
+          {%- if forloop.index <= 10 -%}
+            {%- if a contains "Umar Ahmad" or a contains "Ahmad, U" -%}
+              <span class="me">{{ a }}</span>
+            {%- else -%}
+              {{ a }}
+            {%- endif -%}
+            {%- unless forloop.last %}, {% endunless -%}
+          {%- elsif forloop.index == 11 -%}
+            <span> … and {{ pub.authors.size | minus: 10 }} more</span>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    <div class="meta">
+      {%- if pub.venue and pub.venue != "" %}<span class="venue">{{ pub.venue }}</span>{% endif -%}
+      {%- if q != "" %}<span class="tag tag-{{ q | downcase }}" {% if qcat != "" %}title="{{ qcat }} — {{ site.data.journal_quartiles.source }} {{ site.data.journal_quartiles.year }}"{% endif %}>{{ q }}</span>{% endif -%}
+      {%- unless include.compact -%}
+        {%- if pub.type != "article" %}<span class="tag">{{ pub.type }}</span>{% endif -%}
+        {%- if pub.oa %}<span class="tag tag-oa">open access</span>{% endif -%}
+        {%- if pub.citations and pub.citations > 0 %}<span>{{ pub.citations }} citation{% if pub.citations != 1 %}s{% endif %}</span>{% endif -%}
+      {%- endunless -%}
+      {%- if pub.doi and pub.doi != "" %}<a class="tiny" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">doi:{{ pub.doi }}</a>{% endif -%}
+    </div>
+  </div>
+</li>

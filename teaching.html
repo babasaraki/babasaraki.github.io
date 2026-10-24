@@ -1,0 +1,40 @@
+---
+layout: page
+permalink: /teaching/
+title: Teaching & talks
+eyebrow: Courses, workshops and invited lectures
+lead: >-
+  Courses taught at undergraduate and postgraduate level, plus the workshops
+  and invited talks I have given — most with slides deposited on Zenodo.
+---
+{% for block in site.data.teaching.courses %}
+  <h2{% unless forloop.first %} style="margin-top:2.5rem"{% endunless %}>{{ block.level }} courses</h2>
+  <ul class="course-grid">
+    {% for c in block.items %}
+      <li class="course">{% if c.code and c.code != "" %}<code>{{ c.code }}</code>{% endif %}<span>{{ c.title }}</span></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h2 style="margin-top:2.5rem">Invited talks, workshops and training</h2>
+<ul class="pub-list">
+  {% for t in site.data.teaching.talks %}
+    <li class="pub">
+      <div class="yr">{{ t.year }}</div>
+      <div>
+        <div class="t">{% if t.url %}<a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</div>
+        <div class="meta">
+          <span class="tag">{{ t.kind }}</span>
+          {% if t.venue %}<span class="venue">{{ t.venue }}</span>{% endif %}
+          {% if t.url %}<span class="tiny">slides</span>{% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="callout" style="margin-top:2.5rem">
+  <strong>Workshop requests.</strong>
+  I run Carpentries-style training in R, Python, Unix and genomic data analysis for departments and
+  research groups. <a href="{{ '/contact/' | relative_url }}">Ask about dates</a>.
+</div>

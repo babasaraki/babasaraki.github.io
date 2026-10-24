@@ -1,0 +1,1002 @@
+# GENERATED FILE — do not edit by hand.
+# Rebuild with:  python scripts/update_publications.py
+# Corrections belong in _data/pub_overrides.yml.
+updated: '2026-10-24'
+source: https://openalex.org/A5016908264
+metrics:
+  works: 53
+  citations: 276
+  h_index: 9
+  i10_index: 9
+featured:
+- 10.1038/s41598-022-20521-z
+- 10.1128/jcm.00405-24
+- 10.1038/s41467-021-23784-8
+- 10.1002/appl.202300002
+- 10.1186/s12885-019-5516-5
+- 10.1016/j.sjbs.2023.103685
+items:
+- title: 'Gene Expression Signatures and Hub Genes in Cervical Cancer: A Bioinformatics-Based Roadmap
+    to Early Diagnosis and Targeted Therapy'
+  authors:
+  - Yahya Ibrahim Hassan
+  - Murtala Muhammad Jibril
+  - Umar Ahmad
+  year: 2026
+  venue: Research Square
+  type: preprint
+  doi: 10.21203/rs.3.rs-10695486/v1
+  url: https://doi.org/10.21203/rs.3.rs-10695486/v1
+  citations: 0
+  oa: true
+  issn: ''
+- title: Scholarly Publishing in Resources-Limited Settings Challenges, Opportunities, and Strategies
+    for High-Impact Publication
+  authors:
+  - Umar Ahmad
+  year: 2026
+  venue: Zenodo
+  type: article
+  doi: 10.5281/zenodo.21491906
+  url: https://doi.org/10.5281/zenodo.21491906
+  citations: 0
+  oa: true
+  issn: ''
+- title: 'Sociodemographic Predictors of Insecticide-Treated Nets Utilization in Katsina State, Nigeria:
+    A Community-Based Cross-Sectional Study'
+  authors:
+  - Mansir Muhammed
+  - Abdullahi Mohammed Isyaku
+  - Umar Ahmad
+  - Umar Aminu Mohammed
+  - Saidu Isah
+  - Sani Buba
+  year: 2026
+  venue: West African Journal of Allied Health Sciences
+  type: article
+  doi: 10.67891/dg04w626
+  url: https://doi.org/10.67891/dg04w626
+  citations: 0
+  oa: true
+  issn: 3115-4573
+  volume: '2'
+- title: 'The need to strengthen laboratory leadership, systems, and networks to enhance outbreak detection
+    and resilience in Africa: proceedings of a regional workshop'
+  authors:
+  - Harris Onywera
+  - Richard Njouom
+  - Dorcas Waruguru Wanjohi
+  - Jackson Peter Mushumbusi
+  - Abdou Moindze
+  - Abebaw Kebede
+  - Alisen Ayitewala
+  - Ambele Mwafulango
+  - Anne von Gottberg
+  - Collins Kipngetich Tanui
+  - Euniverse Shikaseba
+  - Fahima Moosa
+  - Félix Koukouikila-Koussounda
+  - Ibréhima Guindo
+  - Isaac Ssewanyana
+  - Joseph Bitilinyu-Bangoh
+  - Joseph Nyandwi
+  - Kedibone Maria Ndlangisa
+  - Klèma Marcel Koné
+  - Mignon du Plessis
+  - Mirriam Ethel Nyenje
+  - Moussa Moïse Diagne
+  - Natalie T. Mayet
+  - Nebiyu Dereje
+  - Noumou Yakhouba Keita
+  - Ouindgueta Juste Isidore Bonkoungou
+  - Placide Mbala Kingebeni
+  - Prince Akil-Bandali
+  - René Ghislain Essomba
+  - Roch Fabien Niama
+  - Roma Chilengi
+  - Sarah Wambui Mwangi
+  - Seydou Golo Barro
+  - Moyo Sikhulile
+  - Susan Ndidde Nabadda
+  - Talkmore Maruta
+  - Tonny Muyigi
+  - Valentina Josiane Ngo Bitoungui
+  - Umar Ahmad
+  - Vindana Chibabhai
+  - Winnie Kwamboka Mokaya
+  - Youssouf Tadjidine
+  - Sofonias Kifle Tessema
+  - Jean Kaseya
+  - Yenew Kebede Tebeje
+  year: 2026
+  venue: BMC Proceedings
+  type: article
+  doi: 10.1186/s12919-026-00382-4
+  url: https://doi.org/10.1186/s12919-026-00382-4
+  citations: 0
+  oa: true
+  issn: 1753-6561
+  volume: '20'
+- title: 'Computed Tomography-Based Analysis of Foramen Magnum and Occipital Condyles in Adult Nigerians:
+    An Anatomical Study'
+  authors:
+  - Fatima Muhammad
+  - Umar Ahmad
+  - Tawfiq Y. T. Zyoud
+  - Murtala Muhammad Jibril
+  - Suleiman Hamidu Kwairanga
+  - Subapriya Suppiah
+  year: 2025
+  venue: International Journal of Morphology
+  type: article
+  doi: 10.4067/s0717-95022025000301021
+  url: https://doi.org/10.4067/s0717-95022025000301021
+  citations: 1
+  oa: true
+  issn: 0717-9367
+  volume: '43'
+- title: 'Determinants of obesity and overweight among school-aged children in Bauchi, Nigeria: A mixed-methods
+    study'
+  authors:
+  - Umar Ahmad
+  - Nazif Yakubu
+  - Grace Joseph
+  - Murtala Muhammad Jibril
+  - Aminu Umar Kura
+  year: 2025
+  venue: Gadau Journal of Pure and Allied Sciences
+  type: article
+  doi: 10.54117/m2vdh424
+  url: https://doi.org/10.54117/m2vdh424
+  citations: 0
+  oa: true
+  issn: 2955-1722
+  volume: '4'
+- title: Evolutionary Insights of Hepatitis B Virus Genotypes and Profiles of Mutations in Surface and
+    Basal Core Promoter/Pre-Core Genes Among HBsAg-Positive Patients in North-Central and Southwestern
+    Nigeria
+  authors:
+  - Priscilla Abechi
+  - Uwem Etop George
+  - Olawale A. Adejumobi
+  - Umar Ahmad
+  - Olamide Y. Aborisade
+  - Arthur Obinna Oragwa
+  - Oluremi Israel Ajayi
+  - Oluwasemilogo O. Akinlo
+  - Christian Tientcha Happi
+  - Onikepe A. Folarin
+  year: 2025
+  venue: Viruses
+  type: article
+  doi: 10.3390/v17081101
+  url: https://doi.org/10.3390/v17081101
+  citations: 3
+  oa: true
+  issn: 1999-4915
+  volume: '17'
+- title: Genomic alterations in persistently infecting oncolytic Newcastle disease virus reveal mechanisms
+    of viral persistence in bladder cancer cells
+  authors:
+  - Umar Ahmad
+  - De Ming Chau
+  - Soon Choy Chan
+  - Khatijah Yusoff
+  - Abhi Veerakumarasivam
+  - Syahril Abdullah
+  year: 2025
+  venue: bioRxiv
+  type: preprint
+  doi: 10.1101/2025.05.06.652422
+  url: https://doi.org/10.1101/2025.05.06.652422
+  citations: 0
+  oa: true
+  issn: ''
+- title: Oncolytic mechanisms and immunotherapeutic potential of Newcastle disease virus in cancer therapy
+  authors:
+  - Umar Ahmad
+  - Harun, Surializa
+  - Moussa Moïse Diagne
+  - Syahril Abdullah
+  - Khatijah Yusoff
+  - Abhi Veerakumarasivam
+  year: 2025
+  venue: arXiv
+  type: preprint
+  doi: 10.48550/arxiv.2505.06067
+  url: https://doi.org/10.48550/arxiv.2505.06067
+  citations: 0
+  oa: true
+  issn: 2331-8422
+- title: A systematic review on diagnostic and prognostic biomarkers for bladder cancer
+  authors:
+  - Umar Muhammad
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - Aliyu Adamu Ahmad
+  - Haruna Usman Liman
+  year: 2024
+  venue: medRxiv
+  type: preprint
+  doi: 10.1101/2024.06.02.24308331
+  url: https://doi.org/10.1101/2024.06.02.24308331
+  citations: 1
+  oa: true
+  issn: ''
+- title: CDC Trioplex diagnostic assay underperforms in detection of circulating Chikungunya West African
+    genotype
+  authors:
+  - Mignane Ndiaye
+  - Mouhamed Kane
+  - Diamilatou Balde
+  - Safiétou Sankhe
+  - Maïmouna Mbanne
+  - Seynabou Mbaye Ba Souna Diop
+  - Umar Ahmad
+  - Gerald Mboowa
+  - Samba Niang Sagne
+  - Mamadou Cisse
+  - Ndongo Dia
+  - Amadou Alpha Sall
+  - Ousmane Faye
+  - Gamou Fall
+  - Oumar Faye
+  - Manfred Weidmann
+  - Moussa Moïse Diagne
+  - Idrissa Dieng
+  year: 2024
+  venue: Journal of Clinical Microbiology
+  type: article
+  doi: 10.1128/jcm.00405-24
+  url: https://doi.org/10.1128/jcm.00405-24
+  citations: 4
+  oa: true
+  issn: 0095-1137
+  volume: '62'
+- title: 'Default mode network perturbations in Alzheimer''s disease: an fMRI study in Klang Valley, Malaysia'
+  authors:
+  - Nur Hafizah Mohad Azmi
+  - Subapriya Suppiah
+  - Nur Shahidatul Nabila Ibrahim
+  - Buhari Ibrahim
+  - Umar Ahmad
+  year: 2024
+  venue: Neuroscience Research Notes
+  issn: 2576-828X
+  type: article
+  url: https://neuroscirn.org/ojs/index.php/nrnotes/article/view/284
+- title: 'DOG BITE TRAUMA-INDUCED VERTEBRAL FRACTURE IN A 2-YEAR-OLD TOM-CAT: A CASE REPORT'
+  authors:
+  - Nura Abubakar
+  - Shehu Zaid
+  - Ashiru Dahiru
+  - Hassan Abubakar Bodinga
+  - Umar Ahmad
+  - Muhammad Jibrin
+  year: 2024
+  venue: Journal of Research in Veterinary Sciences
+  type: article
+  doi: 10.5455/jrvs.20240624100551
+  url: https://doi.org/10.5455/jrvs.20240624100551
+  citations: 0
+  oa: false
+  issn: 2983-757X
+- title: 'Lighting the Torch of Knowledge in the Darkness of the Middle Ages: The Arab-Islamic influence
+    on Ophthalmology'
+  authors:
+  - Umar Ahmad
+  - John Delieu
+  - Sami A. Al-Ani
+  year: 2024
+  venue: Zenodo
+  type: article
+  doi: 10.5281/zenodo.20833374
+  url: https://doi.org/10.5281/zenodo.20833374
+  citations: 0
+  oa: true
+  issn: ''
+- title: Practical Approach to Learning Bioinformatics
+  authors:
+  - Umar Ahmad
+  year: 2024
+  venue: Book
+  type: book
+  url: ''
+- title: Review of MR spectroscopy analysis and artificial intelligence applications for the detection
+    of cerebral inflammation and neurotoxicity in Alzheimer's disease
+  authors:
+  - Vijayakumar Palaniappan Seriramulu
+  - Subapriya Suppiah
+  - Hyeon-Ho Lee
+  - Jae-Hyeok Jang
+  - Umar Ahmad
+  year: 2024
+  venue: The Medical Journal of Malaysia
+  issn: 0300-5283
+  type: article
+  url: https://europepmc.org/article/med/38287765
+- title: The Sensitivity and Specificity of Susceptibility Weighted Imaging Phase (Swip) in Detecting
+    Intracranial Large Artery Calcium Stenosis Compared to Cone Beam CT
+  authors:
+  - Tawfiq Y. T. Zyoud
+  - Muhammad Hasif Bin Kamaruddin
+  - Suzana Ab Hamid
+  - Mohamad Syafeeq Faeez Bin Md Noh
+  - Umar Ahmad
+  - Kabeer Abubakar
+  - Saiful Nizam Abdul Rashid
+  - Subapriya Suppiah
+  - Rozi Mahmud
+  - Ezamin Bin Abdul Rahim
+  year: 2024
+  venue: South Eastern European Journal of Public Health
+  type: article
+  doi: 10.70135/seejph.vi.1418
+  url: https://doi.org/10.70135/seejph.vi.1418
+  citations: 0
+  oa: true
+  issn: 2197-5248
+- title: A comprehensive review of cystic fibrosis in Africa and Asia
+  authors:
+  - Khadijat Abubakar Bobbo
+  - Umar Ahmad
+  - De-Ming Chau
+  - Norshariza Nordin
+  - Syahril Abdullah
+  year: 2023
+  venue: Saudi Journal of Biological Sciences
+  type: article
+  doi: 10.1016/j.sjbs.2023.103685
+  url: https://doi.org/10.1016/j.sjbs.2023.103685
+  citations: 15
+  oa: true
+  issn: 1319-562X
+  volume: '30'
+- title: A systematic review of genome-wide association studies on bladder cancer
+  authors:
+  - Aliyu Adamu Ahmad
+  - Umar Muhammad
+  - Buhari Ibrahim
+  - Suleiman Hamidu Kwairanga
+  - ⁠Usman Adamu Garkuwa
+  - Murtala Muhammad Jibril
+  - Umar Ahmad
+  - Haruna Usman Liman
+  year: 2023
+  venue: medRxiv
+  type: preprint
+  doi: 10.1101/2023.09.17.23295670
+  url: https://doi.org/10.1101/2023.09.17.23295670
+  citations: 0
+  oa: true
+  issn: ''
+- title: Analysis of PPI networks of transcriptomic expression identifies hub genes associated with Newcastle
+    disease virus persistent infection in bladder cancer
+  authors:
+  - Umar Ahmad
+  - Syahril Abdullah
+  - De Ming Chau
+  - Suet Lin Chia
+  - Khatijah Yusoff
+  - Soon Choy Chan
+  - Teng Aik Ong
+  - Azad Hassan Abdul Razack
+  - Abhi Veerakumarasivam
+  year: 2023
+  venue: Scientific Reports
+  type: article
+  doi: 10.1038/s41598-022-20521-z
+  url: https://doi.org/10.1038/s41598-022-20521-z
+  citations: 8
+  oa: true
+  issn: 2045-2322
+  volume: '13'
+- title: Body weight estimation based on the anterior abdominal subcutaneous fat thickness and autopsy
+    weight measured using post-mortem computed tomographic scans in Malaysian
+  authors:
+  - Tawfiq Y. T. Zyoud
+  - Saiful Nizam Abdul Rashid
+  - Suppiah Subapriya
+  - Rozi Mahmud
+  - Umar Ahmad
+  - Kabeer Abubakar
+  - Ab Hamid Suzana
+  - Mohamad Syafeeq Faeez Bin Md Noh
+  - Ezamin Abdul Rahim
+  year: 2023
+  venue: Asian Journal of Health Sciences
+  type: article
+  doi: 10.15419/ajhs.v9i2.526
+  url: https://doi.org/10.15419/ajhs.v9i2.526
+  citations: 0
+  oa: true
+  issn: 2347-5218
+- title: Datasets and figures for simple models of neuroscience research discoveries
+  authors:
+  - S. K. Hamidu
+  - Umar Ahmad
+  - R. Abdulazeez
+  - Zaid Muhammad
+  - Abdulrahman Idris Alkhamis
+  - M. Umar
+  - A. A. Ladan
+  - Fayza Eid Nasr
+  - A. A. Ahmad
+  - Sunday Abraham Musa
+  - Jamilu Ya’u
+  - Wilson Oliver Hamman
+  - Takeshi Yoshimatsu
+  - Sanusi Mohammad Bello
+  - S. R. Issa
+  - Mahmoud Bukar Maina
+  year: 2023
+  venue: Zenodo
+  type: dataset
+  doi: 10.5281/zenodo.7641747
+  url: https://doi.org/10.5281/zenodo.7641747
+  citations: 0
+  oa: true
+  issn: ''
+- title: Seed-based morphometry of nodes in the default mode network among patients with Alzheimer's disease
+    in Klang Valley, Malaysia
+  authors:
+  - Nur Hafizah Mohad Azmi
+  - Subapriya Suppiah
+  - Nur Shahidatul Nabila Ibrahim
+  - Buhari Ibrahim
+  - Umar Ahmad
+  year: 2023
+  venue: medRxiv
+  type: preprint
+  doi: 10.1101/2023.08.29.23294758
+  url: https://doi.org/10.1101/2023.08.29.23294758
+- title: 'Simple models for neuroscience research discoveries: how often are these models used in Africa?'
+  authors:
+  - Suleiman Hamidu Kwairanga
+  - Umar Ahmad
+  - Rashidat Abdulazeez
+  - Zaid Muhammad
+  - Abdulrahman Idris Alkhamis
+  - M. Umar
+  - Ahmad Aliyu Ladan
+  - Fayza Eid Nasr
+  - Aisha Ahmad
+  - Sunday Abraham Musa
+  - Jamilu Ya’u
+  - Wilson Oliver Hamman
+  - Murtala Bindawa Isah
+  - Sanusi Mohammad Bello
+  - Takeshi Yoshimatsu
+  - Abdul-Raouf Issa
+  - Mahmoud Bukar Maina
+  year: 2023
+  venue: Molecular Psychology Brain Behavior and Society
+  type: article
+  doi: 10.12688/molpsychol.17511.1
+  url: https://doi.org/10.12688/molpsychol.17511.1
+  citations: 1
+  oa: true
+  issn: 2752-8286
+  volume: '2'
+- title: Transcriptome profiling research in urothelial cell carcinoma
+  authors:
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - Mustapha Mohammed
+  - Ahmed Faris Aldoghachi
+  - Mahmood Usman
+  - Abdulbasit Haliru Yakubu
+  - Abubakar Sadiq Tanko
+  - Khadijat Abubakar Bobbo
+  - ⁠Usman Adamu Garkuwa
+  - Abdullahi Adamu Faggo
+  - Sagir Mustapha
+  - Mahmoud Al‐Masaeed
+  - Syahril Abdullah
+  - Yoke Keong Yong
+  - Abhi Veerakumarasivam
+  year: 2023
+  venue: Applied Research
+  type: article
+  doi: 10.1002/appl.202300002
+  url: https://doi.org/10.1002/appl.202300002
+  citations: 0
+  oa: true
+  issn: 2702-4288
+  volume: '3'
+- title: Evaluation of EN2 gene as a potential biomarker for bladder cancer
+  authors:
+  - Ahmed Faris Aldoghachi
+  - Aminuddin Baharudin
+  - Umar Ahmad
+  - Soon Choy Chan
+  - Aik T. Ong
+  - Rosna Yunus
+  - Azad Hassan Abdul Razack
+  - Khatijah Yusoff
+  - Abhi Veerakumarasivam
+  year: 2022
+  venue: bioRxiv
+  type: preprint
+  doi: 10.1101/2022.06.28.497337
+  url: https://doi.org/10.1101/2022.06.28.497337
+  citations: 0
+  oa: true
+  issn: ''
+- title: Two decades of neuroscience publication trends in Africa
+  authors:
+  - Mahmoud Bukar Maina
+  - Umar Ahmad
+  - Ibrahim Harun Arrashid
+  - S. K. Hamidu
+  - Fayza Eid Nasr
+  - Abubakar Tijjani Salihu
+  - Abdelrahman Ibrahim Abushouk
+  - Muhammad Abdurrazak
+  - Mosab Ali Awadelkareem
+  - Abdulbasit Amin
+  - Aminu Imam
+  - Ibukun Dorcas Akinrinade
+  - Abdulbasit Haliru Yakubu
+  - Idris Ayodeji Azeez
+  - Yunusa Garba Mohammed
+  - A. A. Adamu
+  - H. B. Ibrahim
+  - Ali Maina Bukar
+  - Aisha Umar Yaro
+  - Baba Waru Goni
+  - Lucia L. Prieto-Godino
+  - Tom Baden
+  year: 2021
+  venue: Nature Communications
+  type: article
+  doi: 10.1038/s41467-021-23784-8
+  url: https://doi.org/10.1038/s41467-021-23784-8
+  citations: 49
+  oa: true
+  issn: 2041-1723
+  volume: '12'
+- title: '20 years of African Neuroscience: Waking a sleeping giant'
+  authors:
+  - Mahmoud Bukar Maina
+  - Umar Ahmad
+  - HA Ibrahim
+  - S. K. Hamidu
+  - Fayza Eid Nasr
+  - Abubakar Tijjani Salihu
+  - AI Abushouk
+  - Muhammad Abdurrazak
+  - MA Awadelkareem
+  - Abdulbasit Amin
+  - Aminu Imam
+  - Ibukun Dorcas Akinrinade
+  - AH Yakubu
+  - Idris Ayodeji Azeez
+  - GM Yunusa
+  - A N D U A L E M T S E H A Y E Adamu
+  - H. B. Ibrahim
+  - AM Bukar
+  - Aisha Umar Yaro
+  - Lucia L. Prieto-Godino
+  - Tom Baden
+  year: 2020
+  venue: bioRxiv
+  type: preprint
+  doi: 10.1101/2020.06.03.131391
+  url: https://doi.org/10.1101/2020.06.03.131391
+  citations: 5
+  oa: true
+  issn: ''
+- title: A Cross-Sectional Survey on Smartphone Usage Pattern, the Level of Mobile Phone Dependence and
+    Psychosocial Effects among Undergraduate Students in a Malaysian University
+  authors:
+  - Nisha Syed Nasser
+  - Loh Jia Ling
+  - Aida Abdul Rashid
+  - Hamed Sharifat
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - M. Salasiah
+  - Hoo Fan Kee
+  - Ching Siew Mooi
+  - Subapriya Suppiah
+  year: 2020
+  venue: medRxiv
+  type: preprint
+  doi: 10.1101/2020.01.06.20016592
+  url: https://doi.org/10.1101/2020.01.06.20016592
+  citations: 8
+  oa: true
+  issn: ''
+- title: A survey on smartphone dependence and psychological effects among undergraduate students in a
+    Malaysian University.
+  authors:
+  - Nisha Syed Nasser
+  - Jia Ling Loh
+  - Aneesa Abdul Rashid
+  - Hamed Sharifat
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - S. Mustafa
+  - Fan Kee Hoo
+  - Siew Mooi Ching
+  - S Suppiah S
+  year: 2020
+  venue: PubMed
+  type: article
+  doi: ''
+  url: https://pubmed.ncbi.nlm.nih.gov/32723994
+  citations: 7
+  oa: false
+  issn: ''
+  volume: '75'
+- title: Ask A Scientist - Your COVID-19 Questions Answered
+  authors:
+  - Lazarus Joseph Goje
+  - Jamilu Ibrahim Nikau
+  - Abdulrazak B. Ibrahim
+  - Umar Ahmad
+  - Mahmoud Bukar Maina
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.313e2a51
+  url: https://doi.org/10.21428/3b2160cd.313e2a51
+  citations: 0
+  oa: true
+  issn: ''
+- title: 'COVID-19 Response in Nigeria: successes, challenges and ways forward'
+  authors:
+  - Umar Ahmad
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.dc27fb4c
+  url: https://doi.org/10.21428/3b2160cd.dc27fb4c
+  citations: 0
+  oa: true
+  issn: ''
+- title: Functional Transcriptome Analysis of Bladder Cancer Cell Lines Persistently Infected with Oncolytic
+    Newcastle Disease Virus
+  authors:
+  - Umar Ahmad
+  - Arcana Thirumorthy
+  - Syahril Abdullah
+  - De Ming Chau
+  - Suet Lin Chia
+  - Khatijah Yusoff
+  - Soon Choy Chan
+  - Teng Aik Ong
+  - Azad Hassan Abdul Razack
+  - Abhi Veerakumarasivam
+  year: 2020
+  venue: bioRxiv
+  type: preprint
+  doi: 10.1101/2020.12.14.422610
+  url: https://doi.org/10.1101/2020.12.14.422610
+  citations: 7
+  oa: true
+  issn: ''
+- title: 'How to write a good scientific paper for publication: Writing compelling papers'
+  authors:
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - Abdussamad Abubakar
+  - Balkisu Ibrahim
+  - Kabiru Bello Illela
+  - Sani Muhammad Yau
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.5fdb0add
+  url: https://doi.org/10.21428/3b2160cd.5fdb0add
+  citations: 0
+  oa: true
+  issn: ''
+- title: How to write compelling scientific review papers
+  authors:
+  - Umar Ahmad
+  - Buhari Ibrahim
+  - Abdussamad Abubakar
+  - Balkisu Ibrahim
+  - Sani Muhammad Yau
+  - Kabiru Bello Illela
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.15ef392c
+  url: https://doi.org/10.21428/3b2160cd.15ef392c
+  citations: 0
+  oa: true
+  issn: ''
+- title: Identification of molecular pathways associated with Newcastle disease virus (AF2240) persistent
+    infection in urothelial cell carcinoma
+  authors:
+  - Umar Ahmad
+  year: 2020
+  venue: UPM Institutional Repository
+  type: thesis
+  doi: ''
+  url: http://psasir.upm.edu.my/id/eprint/90883/1/FPSK%20P%202020%2013%20IR.pdf
+  citations: 0
+  oa: true
+  issn: ''
+- title: Mathematical modelling of infectious diseases during outbreaks
+  authors:
+  - Bootan Rahman
+  - Mahmoud Bukar Maina
+  - Umar Ahmad
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.150e4ca4
+  url: https://doi.org/10.21428/3b2160cd.150e4ca4
+  citations: 0
+  oa: true
+  issn: ''
+- title: Preprint Server
+  authors:
+  - Umar Ahmad
+  year: 2020
+  venue: Definitions
+  type: other
+  doi: 10.32388/u0p9yf
+  url: https://doi.org/10.32388/u0p9yf
+  citations: 0
+  oa: true
+  issn: ''
+- title: The African Open Access portal as a Covid-19 information hub
+  authors:
+  - Pricilla Mensah
+  - Umar Ahmad
+  - Luke Okelo
+  year: 2020
+  venue: UNISA Institutional Repository
+  type: other
+  doi: ''
+  url: http://hdl.handle.net/10500/26726
+  citations: 0
+  oa: true
+  issn: ''
+- title: 'The Nigerian Bioinformatics and Genomics Network (NBGN): a collaborative platform to advance
+    bioinformatics and genomics in Nigeria'
+  authors:
+  - Segun Fatumo
+  - ThankGod E. Ebenezer
+  - Chinwe Ekenna
+  - Itunuoluwa Isewon
+  - Umar Ahmad
+  - Charles Oluwaseun Adetunji
+  - Elijah Kolawole Oladipo
+  - Marion O. Adebiyi
+  - Ezekiel Femi Adebiyi
+  - Oyekanmi Nashiru
+  - The Nigerian Bioinformatics and Genomics Network
+  year: 2020
+  venue: Global Health
+  type: article
+  doi: 10.1017/gheg.2020.3
+  url: https://doi.org/10.1017/gheg.2020.3
+  citations: 22
+  oa: true
+  issn: 2054-4200
+  volume: '5'
+- title: Webcast entry - guideline
+  authors:
+  - Umar Ahmad
+  - Jo Havemann
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.18b0e78a
+  url: https://doi.org/10.21428/3b2160cd.18b0e78a
+  citations: 0
+  oa: true
+  issn: ''
+- title: Your COVID-19 Questions Answered
+  authors:
+  - Mahmoud Bukar Maina
+  - Jamilu Ibrahim Nikau
+  - Mohammed Auwal Ibrahim
+  - Umar Ahmad
+  year: 2020
+  venue: ''
+  type: preprint
+  doi: 10.21428/3b2160cd.121bc60a
+  url: https://doi.org/10.21428/3b2160cd.121bc60a
+  citations: 0
+  oa: true
+  issn: ''
+- title: 'African neuroscience on the global stage: Nigeria as a model'
+  authors:
+  - Mahmoud Bukar Maina
+  - Yunusa Garba Mohammed
+  - Ali Maina Bukar
+  - Umar Ahmad
+  - Abubakar Tijjani Salihu
+  - Harun A. Ibrahim
+  - Muhammad Abdurrazak
+  - Suleiman Hamidu Kwairanga
+  - Aisha Umar Yaro
+  - Mosab Ali Awadelkareem
+  - Fayza Eid Nasr
+  - Tom Baden
+  year: 2019
+  venue: European Journal of Neuroscience
+  type: article
+  doi: 10.1111/ejn.14372
+  url: https://doi.org/10.1111/ejn.14372
+  citations: 16
+  oa: true
+  issn: 0953-816X
+  volume: '49'
+- title: 'Correction to: Regression of solid breast tumours in mice by Newcastle disease virus is associated
+    with production of apoptosis related-cytokines'
+  authors:
+  - Juraimi Raihan
+  - Umar Ahmad
+  - Yoke Keong Yong
+  - Zolkapli Eshak
+  - Fauziah Othman
+  - Aini Ideris
+  year: 2019
+  venue: BMC Cancer
+  type: other
+  doi: 10.1186/s12885-019-5588-2
+  url: https://doi.org/10.1186/s12885-019-5588-2
+  citations: 0
+  oa: true
+  issn: 1471-2407
+  volume: '19'
+- title: Evaluation of CERS2 Gene as a Potential Biomarker for Bladder Cancer
+  authors:
+  - Ahmed Faris Aldoghachi
+  - Aminuddin Baharudin
+  - Umar Ahmad
+  - Soon Choy Chan
+  - Teng Aik Ong
+  - Rosna Yunus
+  - Azad Hassan Abdul Razack
+  - Khatijah Yusoff
+  - Abhi Veerakumarasivam
+  year: 2019
+  venue: Disease Markers
+  type: article
+  doi: 10.1155/2019/3875147
+  url: https://doi.org/10.1155/2019/3875147
+  citations: 11
+  oa: true
+  issn: 0278-0240
+  volume: '2019'
+- title: 'First Nigerian Bioinformatics Conference (FNBC): towards a dynamic bioinformatics community'
+  authors:
+  - ThankGod E. Ebenezer
+  - Itunuoluwa Isewon
+  - Elijah K. Oladipo
+  - Olaitan Awe
+  - Umar Ahmad
+  year: 2019
+  venue: First Nigerian Bioinformatics Conference
+  type: conference
+  url: http://eprints.lmu.edu.ng/3178/
+- title: Regression of solid breast tumours in mice by Newcastle disease virus is associated with production
+    of apoptosis related-cytokines
+  authors:
+  - Umar Ahmad
+  - Juraimi Raihan
+  - Yoke Keong Yong
+  - Zolkapli Eshak
+  - Fauziah Othman
+  - Aini Ideris
+  year: 2019
+  venue: BMC Cancer
+  type: article
+  doi: 10.1186/s12885-019-5516-5
+  url: https://doi.org/10.1186/s12885-019-5516-5
+  citations: 20
+  oa: true
+  issn: 1471-2407
+  volume: '19'
+- title: Anatomic Variation in Morphometry of Human Coracoid Process among Asian Population
+  authors:
+  - Manal Fathi
+  - Pike-See Cheah
+  - Umar Ahmad
+  - M. Nizlan Nasir
+  - Aye Aye San
+  - Ezamin Bin Abdul Rahim
+  - Paisal Hussin
+  - Rozi Mahmud
+  - Fauziah Othman
+  year: 2017
+  venue: BioMed Research International
+  type: article
+  doi: 10.1155/2017/6307019
+  url: https://doi.org/10.1155/2017/6307019
+  citations: 40
+  oa: true
+  issn: 1110-7243
+  volume: '2017'
+- title: Discovery of anatomic variant of saphenous nerve from human cadaver dissection
+  authors:
+  - Umar Ahmad
+  - Aung San
+  - Pike-See Cheah
+  - Che Norma Mat Taib
+  - Mohamad Aris Mohd Moklas
+  - Fauziah Othman
+  year: 2016
+  venue: Journal of Morphological Sciences
+  type: article
+  doi: 10.4322/jms.081514
+  url: https://doi.org/10.4322/jms.081514
+  citations: 1
+  oa: true
+  issn: 2177-0298
+  volume: '33'
+- title: Effectiveness of HIV/AIDS educational intervention in increasing knowledge, attitude and practices
+    for primary school teachers in some part of Africa
+  authors:
+  - Abdu Mustapha
+  - Umar Ahmad
+  - Bin Hj. Ibrahim Faisal
+  - Syed Hassan Syed Tajuddin
+  - Binti Ismail Suria
+  - Musa Garba Yakasai
+  year: 2015
+  venue: HIV & AIDS Review
+  type: article
+  doi: 10.1016/j.hivar.2015.05.004
+  url: https://doi.org/10.1016/j.hivar.2015.05.004
+  citations: 15
+  oa: true
+  issn: 1730-1270
+  volume: '15'
+- title: Inhibitory and Apoptosis-Inducing Effects of Newcastle Disease Virus Strain AF2240 on Mammary
+    Carcinoma Cell Line
+  authors:
+  - Umar Ahmad
+  - Ismaila Ahmed
+  - Yong Yoke Keong
+  - Nizar Abd Manan
+  - Fauziah Othman
+  year: 2015
+  venue: BioMed Research International
+  type: article
+  doi: 10.1155/2015/127828
+  url: https://doi.org/10.1155/2015/127828
+  citations: 31
+  oa: true
+  issn: 1110-7243
+  volume: '2015'
+- title: Effectiveness of Haemagglutination Test in Detection of Newcastle Disease Virus (NDV) AF2240
+    Strain from Harvested Allantoic Fluids of Infected Chicken Eggs
+  authors:
+  - Umar Ahmad
+  - Ismaila Ahmed
+  - Fauziah Othma
+  - Young Yoke Keong
+  year: 2014
+  venue: International Journal of Biomedical Research
+  type: article
+  doi: 10.7439/ijbr.v5i10.751
+  url: https://doi.org/10.7439/ijbr.v5i10.751
+  citations: 0
+  oa: true
+  issn: 0976-9633
+  volume: '5'
+- title: Non-Specific Immunostimulatory Capacity of Newcastle Disease Virus (NDV) and Suppression of Breast
+    Cancer Cells
+  authors:
+  - Ismaila Ahmed
+  - Umar Ahmad
+  - Fauziah Othman
+  - Yoke Keong Yong
+  year: 2014
+  venue: UPM Institutional Repository
+  type: article
+  doi: ''
+  url: http://psasir.upm.edu.my/id/eprint/34667/
+  citations: 0
+  oa: true
+  issn: ''

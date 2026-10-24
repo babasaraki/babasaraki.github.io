@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Site settings.  Edit these; everything else on the site reads from here
+# or from the YAML files in _data/.
+# ---------------------------------------------------------------------------
+title: "Umar Ahmad"
+tagline: "Senior Genomic Scientist"
+description: >-
+  Umar Ahmad, PhD — genomic scientist working on cancer genomics, pathogen
+  genomic surveillance and bioinformatics capacity building across West Africa.
+url: "https://babasaraki.github.io"
+baseurl: ""
+lang: en_GB
+timezone: Africa/Lagos
+
+# Shown in the footer and in the "last reviewed" note on the CV page.
+site_updated: 2026-10-24
+
+# --- Build -----------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Only plugins on the GitHub Pages whitelist are used, so Pages builds this
+# repository natively — no GitHub Action and no local toolchain required.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: default }
+
+permalink: /blog/:year/:month/:slug/
+paginate_path: /blog/page:num/
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - vendor/
+  - .github/

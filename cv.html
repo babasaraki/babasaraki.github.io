@@ -1,0 +1,83 @@
+---
+layout: page
+permalink: /cv/
+title: Curriculum vitae
+eyebrow: Positions, training, service and awards
+lead: >-
+  A full record of appointments, qualifications, professional service and
+  recognition. Use your browser's print dialogue to save a PDF.
+---
+{%- assign p = site.data.profile -%}
+
+<div class="actions" style="margin:-.5rem 0 2rem">
+  {% if p.cv_pdf %}<a class="btn btn-ghost" href="{{ p.cv_pdf | relative_url }}">{% include icon.html name="download" size=17 %} PDF version</a>{% endif %}
+  <a class="btn btn-ghost" href="https://orcid.org/{{ p.orcid }}" target="_blank" rel="noopener">{% include icon.html name="orcid" size=17 %} ORCID record</a>
+  <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+</div>
+
+<h2>Appointments</h2>
+<ul class="timeline">
+  {% for e in site.data.employment %}
+    <li class="tl-item{% if e.current %} is-current{% endif %}">
+      <h3>{% if e.url %}<a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</h3>
+      {% if e.location %}<div class="when">{{ e.location }}</div>{% endif %}
+      {% for r in e.roles %}
+        <div class="role-line">
+          <div class="org">{{ r.title }}</div>
+          {% if r.period and r.period != "" %}<div class="when">{{ r.period }}</div>{% endif %}
+          {% if r.note %}<p>{{ r.note }}</p>{% endif %}
+        </div>
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 style="margin-top:2.5rem">Education</h2>
+<ul class="timeline">
+  {% for e in site.data.education %}
+    <li class="tl-item{% if e.current %} is-current{% endif %}">
+      <h3>{{ e.degree }}{% if e.field %} — {{ e.field }}{% endif %}</h3>
+      <div class="org">{% if e.institution_url %}<a href="{{ e.institution_url }}" target="_blank" rel="noopener">{{ e.institution }}</a>{% else %}{{ e.institution }}{% endif %}</div>
+      <div class="when">{{ e.period }}</div>
+      {% if e.detail %}<p>{{ e.detail }}</p>{% endif %}
+      {% if e.thesis %}<p><em>Thesis:</em> {{ e.thesis }}</p>{% endif %}
+      {% if e.supervisor %}<p class="tiny">Supervisor: {% if e.supervisor_url %}<a href="{{ e.supervisor_url }}" target="_blank" rel="noopener">{{ e.supervisor }}</a>{% else %}{{ e.supervisor }}{% endif %}</p>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 style="margin-top:2.5rem">Service and leadership</h2>
+<div class="grid grid-2">
+  {% for s in site.data.activities.service %}
+    <div class="card">
+      <h3 style="font-size:1rem">{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.org }}</a>{% else %}{{ s.org }}{% endif %}</h3>
+      <div class="small muted">{{ s.role }}</div>
+      <div class="tiny" style="color:var(--faint)">{{ s.period }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 style="margin-top:2.5rem">Memberships</h2>
+<ul class="pub-list">
+  {% for m in site.data.activities.memberships %}
+    <li class="pub">
+      <div class="yr">{{ m.period | split: " " | first }}</div>
+      <div><div class="t">{{ m.org }}</div><div class="au">{{ m.role }}</div></div>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 style="margin-top:2.5rem">Awards and fellowships</h2>
+<ul class="pub-list">
+  {% for a in site.data.activities.awards %}
+    <li class="pub">
+      <div class="yr">{{ a.year }}</div>
+      <div>
+        <div class="t">{% if a.url %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}</div>
+        <div class="au">{{ a.org }}{% if a.note %} — {{ a.note }}{% endif %}</div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="tiny muted" style="margin-top:2rem">Last reviewed {{ site.site_updated | date: "%e %B %Y" }}.</p>

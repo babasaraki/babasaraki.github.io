@@ -1,0 +1,20 @@
+{%- assign p = site.data.profile -%}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div>© {{ 'now' | date: "%Y" }} {{ p.name }}{% if p.credentials %}, {{ p.credentials }}{% endif %}.</div>
+      <div class="tiny" style="margin-top:.3rem">
+        Text and figures licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>;
+        <a href="https://github.com/babasaraki/babasaraki.github.io">site source</a> under MIT.
+        Last updated {{ site.site_updated | date: "%e %B %Y" }}.
+      </div>
+    </div>
+    <div class="socials">
+      {% for l in p.links %}
+        <a href="{{ l.url }}" target="_blank" rel="noopener me" title="{{ l.name }}" aria-label="{{ l.name }}">
+          {% include icon.html name=l.icon size=18 %}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

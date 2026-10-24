@@ -1,0 +1,111 @@
+courses:
+  - level: Postgraduate
+    items:
+      - code: MCB 8305
+        title: Immunology and Immunobiology
+      - code: MCB 8201
+        title: Advanced Microbial Genomics
+      - code: ""
+        title: Computational Genomics
+
+  - level: Undergraduate
+    items:
+      - code: ANA 4301
+        title: Genomics & Bioinformatics
+      - code: ANA 3710
+        title: Human Genetics
+      - code: ANA 3316
+        title: Medical Genetics & Cytogenetics
+      - code: SPP 3241
+        title: Gene Expression Module
+      - code: ANA 4304
+        title: Immunobiology
+      - code: ANA 1102
+        title: Introduction to Anatomy
+      - code: ANA 2102
+        title: Neuroanatomy
+      - code: ANAT 309
+        title: Neuroanatomy
+      - code: ANA 2401
+        title: Upper and Lower Limb
+      - code: ANA 2204
+        title: Pelvis and Perineum
+      - code: ANA 3202
+        title: Radiological Anatomy
+      - code: ANA 3104
+        title: Histochemistry
+      - code: ANA 4310
+        title: Ultrastructure and Electron Microscopy
+      - code: ANA 4107
+        title: Laboratory Animal Science
+      - code: ANA 4314
+        title: Laboratory Work Experience
+      - code: ANA 4212
+        title: Research Methodology
+      - code: ANA 4212
+        title: Research Project
+
+talks:
+  - year: 2023
+    title: Software Sustainability Institute 2023 Fellowship Application
+    url: https://zenodo.org/record/7140748
+    kind: Fellowship talk
+  - year: 2022
+    title: The Biology of Phylogenetics
+    venue: Bauchi, Nigeria
+    url: https://zenodo.org/record/7064889
+    kind: Workshop
+  - year: 2022
+    title: Reproducibility in Cancer Transcriptomics Research
+    url: https://zenodo.org/record/7144016
+    kind: Invited talk
+  - year: 2022
+    title: "Preprints: Accelerating Scholarly Communications"
+    url: https://zenodo.org/record/6864062
+    kind: Invited talk
+  - year: 2022
+    title: Hands-on Tutorial to Genome-Wide Association Studies (GWAS)
+    kind: Training facilitated
+  - year: 2022
+    title: Foundations of Bioinformatics
+    kind: Workshop
+  - year: 2021
+    title: "ASAPbio preprint infographics: post your preprint in five steps"
+    url: https://zenodo.org/record/5724096
+    kind: Resource
+  - year: 2020
+    title: Introduction to the Use of R in Data Analysis
+    kind: Workshop
+  - year: 2020
+    title: Introduction to R Programming for Beginners
+    kind: Workshop
+  - year: 2020
+    title: "How to Write a Good Scientific Paper for Publication: Writing Compelling Papers"
+    venue: Malaysia
+    url: https://zenodo.org/record/3975276
+    kind: Invited talk
+  - year: 2020
+    title: Top Tips for Succeeding in Your Online Viva Voce
+    venue: Malaysia
+    url: https://zenodo.org/record/3975264
+    kind: Invited talk
+  - year: 2020
+    title: "Scientific Globalization in the COVID-19 Era and Beyond: Prospects and Opportunities for Young Researchers"
+    venue: Borno, Nigeria
+    kind: Invited talk
+  - year: 2019
+    title: Next-Gen Sequence Analysis Workshop
+    kind: Workshop
+  - year: 2019
+    title: Establishment of a bladder cancer cell line persistently infected with Newcastle disease virus
+    venue: Basel, Switzerland
+    kind: Conference talk
+  - year: 2019
+    title: Dissecting the genomic profile of persistently infecting oncolytic Newcastle disease virus (NDVpi) from cancer RNA-Seq data
+    venue: Malaysia
+    url: https://zenodo.org/record/5565479
+    kind: Conference talk
+  - year: 2018
+    title: Development of an in vitro model system for Newcastle disease virus persistence in bladder cancer cells
+    venue: Malaysia
+    kind: Conference talk

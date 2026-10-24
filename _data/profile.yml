@@ -1,0 +1,116 @@
+# ---------------------------------------------------------------------------
+# Everything about you that appears in the hero, the footer and the metadata.
+# ---------------------------------------------------------------------------
+name: Umar Ahmad
+short_name: Umar
+credentials: PhD
+role: Senior Genomic Scientist
+photo: /assets/img/profile.png
+photo_alt: Portrait of Umar Ahmad
+
+# One-sentence positioning line under the name on the home page.
+strapline: >-
+  I build and support genomic surveillance systems across West Africa, and study
+  the molecular drivers of bladder cancer and oncolytic virus persistence.
+
+# Appear as small chips beneath the strapline.
+affiliations:
+  - role: Director, Directorate of Linkages and International Partnerships
+    org: Sa'adu Zungur University
+    url: https://basug.edu.ng/
+  - role: Senior Technical Officer, Pathogen Genomics
+    org: Institute of Genomics, Africa CDC
+    url: https://africacdc.org/
+  - role: Visiting Bioinformatics Scientist, MOGID Laboratory
+    org: Abubakar Tafawa Balewa University
+    url: https://www.atbu.edu.ng/web/front
+
+location: Bauchi, Nigeria · Addis Ababa, Ethiopia
+
+# --- Contact ---------------------------------------------------------------
+# Addresses are split so they are not trivially harvestable; the template
+# reassembles them in the browser.
+emails:
+  - user: umarahmadalfaruq
+    domain: gmail.com
+    label: Personal
+  - user: umarahmad
+    domain: basug.edu.ng
+    label: University
+phone: "+234 803 545 1519"
+address:
+  - Human Genetics Informatics (HGI), Department of Anatomy
+  - Faculty of Basic Medical Sciences, Sa'adu Zungur University
+  - PMB 65 Gadau, Itas/Gadau, Bauchi State, Nigeria
+
+# --- Profiles --------------------------------------------------------------
+# `icon` must match a key in _includes/icon.html.
+orcid: 0000-0002-3216-5171
+links:
+  - name: ORCID
+    icon: orcid
+    url: https://orcid.org/0000-0002-3216-5171
+  - name: Google Scholar
+    icon: scholar
+    url: https://scholar.google.com.my/citations?hl=en&user=_AE595QAAAAJ&view_op=list_works&sortby=pubdate
+  - name: GitHub
+    icon: github
+    url: https://github.com/babasaraki
+  - name: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/babasaraki/
+  - name: X
+    icon: x
+    url: https://twitter.com/babasaraky
+  - name: Substack
+    icon: substack
+    url: https://babasaraki.substack.com/
+
+# Optional CV download. Drop a PDF at assets/cv/umar-ahmad-cv.pdf, then
+# uncomment the line below and the button appears on the CV page.
+# Left commented so the site never ships a link to a file that is not there.
+# cv_pdf: /assets/cv/umar-ahmad-cv.pdf
+
+ventures:
+  - name: Open Science Community Nigeria
+    url: https://www.oscnigeria.org/
+    note: Founder & Community Lead
+  - name: BioSeq
+    url: https://www.bioseqc.com/
+    note: Founder & CEO
+  - name: Bioconductor Community Advisory Board
+    url: https://bioconductor.org/about/community-advisory-board/#current-members
+    note: Board member
+  - name: INOSC
+    url: https://osc-international.com
+    note: Board member
+
+interests:
+  - Genomics
+  - Pathogen Genomics
+  - Transcriptomics
+  - Association Mapping (GWAS)
+  - Disease Genomics
+  - Genomic Epidemiology
+  - Data Science
+  - Open Science
+
+skills:
+  - group: Sequencing & data
+    items:
+      - Illumina, Oxford Nanopore and PacBio data
+      - Next-generation sequencing analysis
+      - Bulk RNA-Seq, scRNA-Seq, WGS, WES
+      - NCBI Nucleotide, Pathogen Detection, SRA, KEGG
+  - group: Computing
+    items:
+      - R / Bioconductor, Python, Bash, Git, LaTeX
+      - Pipeline development and workflow automation
+      - HPC with SLURM; working familiarity with AWS
+      - NumPy, SciPy, pandas, seaborn, Jupyter
+  - group: Research & leadership
+    items:
+      - Leading independent research projects
+      - Teaching, mentoring and curriculum design
+      - Technical, report and scientific writing
+      - Open science and open data advocacy

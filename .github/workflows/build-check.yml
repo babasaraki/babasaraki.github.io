@@ -1,0 +1,39 @@
+# Builds the site on every push so a broken Liquid tag fails loudly here
+# rather than silently on GitHub Pages. Does NOT deploy — Pages does that
+# itself from the `main` branch.
+name: Build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Build
+        run: bundle exec jekyll build --trace
+      - name: Check internal links
+        run: |
+          bundle exec ruby -e '
+            require "find"
+            missing = []
+            Find.find("_site") do |f|
+              next unless f.end_with?(".html")
+              File.read(f).scan(/href="(\/[^"#?]*)"/) do |(href)|
+                next if href.start_with?("/assets")
+                target = File.join("_site", href)
+                ok = File.exist?(target) || File.exist?(target + ".html") ||
+                     File.exist?(File.join(target, "index.html"))
+                missing << "#{f} -> #{href}" unless ok
+              end
+            end
+            abort("Broken internal links:\n" + missing.uniq.join("\n")) unless missing.empty?
+            puts "internal links ok"
+          '
