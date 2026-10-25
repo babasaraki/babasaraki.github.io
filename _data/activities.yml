@@ -1,6 +1,7 @@
 # `kind` is one of: service, membership, award.
 service:
   - org: African Bioinformatics Institute
+    url: https://bioinformaticsinstitute.africa
     role: Founding member — Community of Practice on Human Genomics and Genomic Medicine
     period: 2025 – present
   - org: Directory of Open Access Journals (DOAJ)

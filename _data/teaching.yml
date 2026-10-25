@@ -12,7 +12,7 @@ courses:
     items:
       - code: ANA 4301
         title: Genomics & Bioinformatics
-      - code: ""
+      - code: SAZU-ANA202
         title: Application of AI in Anatomy
       - code: ANA 3710
         title: Human Genetics
