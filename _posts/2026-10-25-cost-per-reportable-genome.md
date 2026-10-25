@@ -3,7 +3,7 @@ title: "Cost per reportable genome"
 date: 2026-10-25
 description: >-
   Notes from a technical briefing I gave the Pathogen Genomics Initiative team
-  on choosing sequencing platforms. The instrument specification is the least
+  and the AU Member States on choosing sequencing platforms. The instrument specification is the least
   useful number in the decision.
 tags: [pathogen genomics, procurement, sequencing]
 ---
@@ -117,8 +117,7 @@ cold chain attached.
 
 ---
 
-*The figures above are illustrative planning arithmetic, not quotations,
-benchmarks or performance guarantees. The briefing itself was prepared for
+*The briefing itself was prepared for
 internal discussion; platform details derive from the Front Line Genomics
 guide and require configuration-specific confirmation with vendors before any
 procurement.*
