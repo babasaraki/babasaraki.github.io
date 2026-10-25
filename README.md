@@ -164,23 +164,6 @@ Do **not** add a `.nojekyll` file — it disables the build and serves raw sourc
   on the CV page. Remove `cv_pdf:` from `_data/profile.yml` if you would rather
   not have one.
 
-## What changed from the previous site
-
-- The publications page listed a block of coffee, blueberry and clover genetics
-  papers by L. F. V. Ferrão, inherited from the template the old site was forked
-  from. Removed.
-- The education page linked "Professor Abhi Veerakumarasivam" and the site-wide
-  Google Scholar button to two different Scholar profiles. The supervisor link is
-  kept on his own profile; the site-wide link now points at yours only.
-- Three of your papers that were on the old site are not indexed in OpenAlex and
-  would have been lost by an automated rebuild; they are preserved under
-  `extra:` in `_data/pub_overrides.yml`.
-- No CDN dependencies. The old site loaded Tailwind/Flowbite and Google Fonts
-  from third-party CDNs on every page view; the CSS is now self-hosted and the
-  type uses a system font stack.
-- Dark mode, keyboard-accessible navigation, a skip link, print styles for the
-  CV page, `schema.org/Person` structured data, sitemap and RSS feed.
-
 ## Licence
 
 Site code: MIT (`LICENSE`). Written content and figures: CC BY 4.0.
