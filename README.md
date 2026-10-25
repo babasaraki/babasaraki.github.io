@@ -28,6 +28,55 @@ lives in HTML. Add a paper, a course or an award by editing one YAML file.
 | Colours, type, spacing | the `:root` block in `assets/css/style.scss` |
 | Blog posts | add a file to `_posts/` |
 
+## Writing a short note
+
+Posts on the Writing page are Markdown files in `_posts/`. There is no minimum
+length — three sentences is a legitimate post.
+
+**The filename carries the date and the URL**, and must be exactly:
+
+    _posts/YYYY-MM-DD-some-slug.md
+
+So `_posts/2026-10-25-nanopore-qc-gotcha.md` publishes at
+`/blog/2026/10/nanopore-qc-gotcha/`. Get the format wrong and Jekyll silently
+ignores the file — that is the one mistake worth watching for.
+
+Each file starts with front matter between `---` lines:
+
+```markdown
+---
+title: "A gotcha in Nanopore read QC"
+date: 2026-10-25
+description: >-
+  Shown under the title on the Writing page and in the RSS feed. Optional.
+tags: [nanopore, qc]
+---
+
+The body, in Markdown. Headings, lists, links, code fences and images
+all work. Images live in `assets/img/` and are referenced as
+`![Alt text](/assets/img/figure.png)`.
+```
+
+Copy `_drafts/TEMPLATE-copy-me.md` rather than typing the front matter.
+
+### Writing one without a local setup
+
+You do not need Ruby or a checkout. On github.com, in this repository:
+
+1. **Add file → Create new file**.
+2. Type `_posts/2026-10-25-my-note.md` as the filename.
+3. Paste the front matter and body.
+4. **Commit changes** to `main`.
+
+Pages rebuilds in a minute or so and the note appears on the Writing page,
+in the RSS feed, and — if it is one of the three most recent — in the
+"Recent posts" block on the home page.
+
+### Drafts
+
+`_drafts/` is not published. Keep unfinished notes there; move a file to
+`_posts/` with a date prefix when it is ready.
+
 ## Updating publications
 
 `_data/publications.yml` is **generated** — do not edit it by hand, your
