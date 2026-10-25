@@ -10,10 +10,9 @@ photo_alt: Portrait of Umar Ahmad
 
 # One-sentence positioning line under the name on the home page.
 strapline: >-
-  I strengthen genomic surveillance systems across Africa to inform public health
-  preparedness and outbreak response, while investigating the molecular mechanisms
-  of bladder cancer and oncolytic virus persistence through computational and
-  functional genomics.
+  I strengthen genomic surveillance across Africa and investigate the molecular
+  mechanisms of bladder cancer and oncolytic virus persistence through
+  computational and functional genomics.
 
 # Appear as small chips beneath the strapline.
 affiliations:
